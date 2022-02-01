@@ -1,0 +1,16 @@
+C:\Users\OWNER\source\repos\MaxOccourence\MaxOccourence\bin\Debug\net5.0\MaxOccourence.exe
+C:\Users\OWNER\source\repos\MaxOccourence\MaxOccourence\bin\Debug\net5.0\MaxOccourence.deps.json
+C:\Users\OWNER\source\repos\MaxOccourence\MaxOccourence\bin\Debug\net5.0\MaxOccourence.runtimeconfig.json
+C:\Users\OWNER\source\repos\MaxOccourence\MaxOccourence\bin\Debug\net5.0\MaxOccourence.runtimeconfig.dev.json
+C:\Users\OWNER\source\repos\MaxOccourence\MaxOccourence\bin\Debug\net5.0\MaxOccourence.dll
+C:\Users\OWNER\source\repos\MaxOccourence\MaxOccourence\bin\Debug\net5.0\ref\MaxOccourence.dll
+C:\Users\OWNER\source\repos\MaxOccourence\MaxOccourence\bin\Debug\net5.0\MaxOccourence.pdb
+C:\Users\OWNER\source\repos\MaxOccourence\MaxOccourence\obj\Debug\net5.0\MaxOccourence.csproj.AssemblyReference.cache
+C:\Users\OWNER\source\repos\MaxOccourence\MaxOccourence\obj\Debug\net5.0\MaxOccourence.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\OWNER\source\repos\MaxOccourence\MaxOccourence\obj\Debug\net5.0\MaxOccourence.AssemblyInfoInputs.cache
+C:\Users\OWNER\source\repos\MaxOccourence\MaxOccourence\obj\Debug\net5.0\MaxOccourence.AssemblyInfo.cs
+C:\Users\OWNER\source\repos\MaxOccourence\MaxOccourence\obj\Debug\net5.0\MaxOccourence.csproj.CoreCompileInputs.cache
+C:\Users\OWNER\source\repos\MaxOccourence\MaxOccourence\obj\Debug\net5.0\MaxOccourence.dll
+C:\Users\OWNER\source\repos\MaxOccourence\MaxOccourence\obj\Debug\net5.0\ref\MaxOccourence.dll
+C:\Users\OWNER\source\repos\MaxOccourence\MaxOccourence\obj\Debug\net5.0\MaxOccourence.pdb
+C:\Users\OWNER\source\repos\MaxOccourence\MaxOccourence\obj\Debug\net5.0\MaxOccourence.genruntimeconfig.cache

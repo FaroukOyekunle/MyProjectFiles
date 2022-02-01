@@ -1,0 +1,102 @@
+﻿@model LibraryManagementSystem.Models.CreateBookRequestModel
+
+
+
+<div class="container">
+    <div class="row justify-content-center">
+        <div class=" card col-md-6">
+            <div class="card-body ">
+                <div class="bg-light">
+                    <h1 class="tagcolor" style="color:aqua">Create</h1>
+                    <p class="tagcolor" style="color:burlywood">Please fill in this form to create a Book.</p>
+                    <hr class="tagcolor" style="color:mediumaquamarine">
+
+                </div>
+                <form asp-action="Create">
+                    <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                    <div class="form-row">
+                        <div class="form-group col-sm-6">
+                            <label asp-for="BookImage" class="control-label"></label>
+                            <input asp-for="BookImage" class="form-control" />
+                            <span asp-validation-for="BookImage" class="text-danger"></span>
+                        </div>
+                        <div class="form-group col-sm-6">
+                            <label asp-for="BookPDF" class="control-label"></label>
+                            <input asp-for="BookPDF" class="form-control" />
+                            <span asp-validation-for="BookPDF" class="text-danger"></span>
+                        </div>
+
+                        <div class="form-group col-sm-6">
+                            <label asp-for="ISBN" class="control-label"></label>
+                            <input asp-for="ISBN" class="form-control" />
+                            <span asp-validation-for="ISBN" class="text-danger"></span>
+                        </div>
+                        <div class="form-group col-sm-6">
+                            <label asp-for="Title" class="control-label"></label>
+                            <input asp-for="Title" class="form-control" />
+                            <span asp-validation-for="Title" class="text-danger"></span>
+                        </div>
+                        <div class="form-group col-sm-6">
+                            <label asp-for="Subject" class="control-label"></label>
+                            <input asp-for="Subject" class="form-control" />
+                            <span asp-validation-for="Subject" class="text-danger"></span>
+                        </div>
+                        <div class="form-group col-sm-6">
+                            <label asp-for="Language" class="control-label"></label>
+                            <input asp-for="Language" class="form-control" />
+                            <span asp-validation-for="Language" class="text-danger"></span>
+                        </div>
+                        <div class="form-group col-sm-6">
+                            <label asp-for="NumberOfPages" class="control-label"></label>
+                            <input asp-for="NumberOfPages" class="form-control" />
+                            <span asp-validation-for="NumberOfPages" class="text-danger"></span>
+                        </div>
+                        <div class="form-group col-sm-6">
+                            <label asp-for="Price" class="control-label"></label>
+                            <input asp-for="Price" class="form-control" />
+                            <span asp-validation-for="Price" class="text-danger"></span>
+                        </div>
+                        <div class="form-group col-sm-6">
+                            <label asp-for="Publisher" class="control-label"></label>
+                            <input asp-for="Publisher" class="form-control" />
+                            <span asp-validation-for="Publisher" class="text-danger"></span>
+                        </div>
+                        <div class="form-group col-sm-6">
+                            <label asp-for="PublicationDate" class="control-label"></label>
+                            <input asp-for="PublicationDate" class="form-control" />
+                            <span asp-validation-for="PublicationDate" class="text-danger"></span>
+                        </div>
+                        <div class="form-group col-sm-6">
+                            <label asp-for="AccessibilityStatus" class="control-label"></label>
+                            <input asp-for="AccessibilityStatus" class="form-control" />
+                            <span asp-validation-for="AccessibilityStatus" class="text-danger"></span>
+                        </div>
+                        <div class="form-group col-sm-6">
+                            <label asp-for="AvailabilityStatus" class="control-label"></label>
+                            <input asp-for="AvailabilityStatus" class="form-control" />
+                            <span asp-validation-for="AccessibilityStatus" class="text-danger"></span>
+                        </div>
+                    </div>
+                    <div class="form-row">
+
+                        <div class="col-md-6" style="margin-top: 20px; font-size: larger; font-weight: bold; color: darkcyan">
+                            <label class="control-label">Product</label>
+                            <select asp-for="Categories" class="form-control" asp-items="ViewBag.Categories" required multiple>
+                                <option value="">--Select Categories--</option>
+                            </select>
+                        </div>
+                    </div>
+
+
+                    <div class="form-group ">
+                        <input href="#myModal" type="submit" value="Submit" class="btn btn-success trigger-btn col-sm-12" data-toggle="modal" />
+                    </div>
+                </form>
+            </div>
+        </div>
+
+    </div>
+</div>
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

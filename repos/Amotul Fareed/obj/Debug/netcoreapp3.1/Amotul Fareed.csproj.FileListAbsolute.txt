@@ -1,0 +1,14 @@
+C:\Users\OWNER\source\repos\Amotul Fareed\bin\Debug\netcoreapp3.1\Amotul Fareed.exe
+C:\Users\OWNER\source\repos\Amotul Fareed\bin\Debug\netcoreapp3.1\Amotul Fareed.deps.json
+C:\Users\OWNER\source\repos\Amotul Fareed\bin\Debug\netcoreapp3.1\Amotul Fareed.runtimeconfig.json
+C:\Users\OWNER\source\repos\Amotul Fareed\bin\Debug\netcoreapp3.1\Amotul Fareed.runtimeconfig.dev.json
+C:\Users\OWNER\source\repos\Amotul Fareed\bin\Debug\netcoreapp3.1\Amotul Fareed.dll
+C:\Users\OWNER\source\repos\Amotul Fareed\bin\Debug\netcoreapp3.1\Amotul Fareed.pdb
+C:\Users\OWNER\source\repos\Amotul Fareed\obj\Debug\netcoreapp3.1\Amotul Fareed.csproj.AssemblyReference.cache
+C:\Users\OWNER\source\repos\Amotul Fareed\obj\Debug\netcoreapp3.1\Amotul Fareed.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\OWNER\source\repos\Amotul Fareed\obj\Debug\netcoreapp3.1\Amotul Fareed.AssemblyInfoInputs.cache
+C:\Users\OWNER\source\repos\Amotul Fareed\obj\Debug\netcoreapp3.1\Amotul Fareed.AssemblyInfo.cs
+C:\Users\OWNER\source\repos\Amotul Fareed\obj\Debug\netcoreapp3.1\Amotul Fareed.csproj.CoreCompileInputs.cache
+C:\Users\OWNER\source\repos\Amotul Fareed\obj\Debug\netcoreapp3.1\Amotul Fareed.dll
+C:\Users\OWNER\source\repos\Amotul Fareed\obj\Debug\netcoreapp3.1\Amotul Fareed.pdb
+C:\Users\OWNER\source\repos\Amotul Fareed\obj\Debug\netcoreapp3.1\Amotul Fareed.genruntimeconfig.cache

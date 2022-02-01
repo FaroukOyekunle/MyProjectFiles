@@ -1,0 +1,71 @@
+﻿@using E_LearningManagementSystem
+@model IEnumerable<E_LearningManagementSystem.Entities.User>
+@*@model List<Department>*@
+
+<style>
+    a:hover {
+        font-size: 120%;
+    }
+</style>
+
+<h1 style="margin-top: 50px; margin-bottom:30px;">List of Users</h1>
+<table class="table table-sm table-hover">
+    <thead>
+        <tr>
+            <th style="font-weight: bolder; font-size: larger;">
+                @Html.DisplayNameFor(model => model.FirstName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.LastName)
+            </th>
+            <th>
+                User Type
+            </th>
+
+
+            <th>
+                Edit
+            </th>
+            <th>
+                Details
+            </th>
+            <th>
+                Delete
+            </th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var user in Model)
+        {
+        <tr>
+            <td>
+                @Html.DisplayFor(model => user.FirstName)
+            </td>
+            <td>
+                @Html.DisplayFor(model => user.LastName)
+            </td>
+            <td>
+                @Html.DisplayFor(model => user.OtherName)
+            </td>
+            <td>
+                @Html.DisplayFor(model => user.UserType)
+            </td>
+            <td>
+                @Html.DisplayFor(model => user.GenderType)
+            </td>
+
+            <td>
+                <a asp-action="Update" asp-route-id="@user.Id">Edit</a>
+            </td>
+            <td>
+                <a asp-action="Details" asp-route-id="@user.Id">Details</a>
+            </td>
+            <td>
+                <a asp-action="Delete" asp-route-id="@user.Id">Delete</a>
+            </td>
+        </tr>
+        }
+    </tbody>
+</table>
+<p style="margin-top: 10px;"><button type="button" style="padding:4px 8px; color: white; border-radius: 8px; background-color:darkcyan;"><a asp-controller="User" asp-action="Create" style="color:white; text-decoration:none;">Add User</a></button></p>
+

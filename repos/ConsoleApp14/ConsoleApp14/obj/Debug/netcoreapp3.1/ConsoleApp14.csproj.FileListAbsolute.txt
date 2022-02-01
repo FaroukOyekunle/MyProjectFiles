@@ -1,0 +1,14 @@
+C:\Users\OWNER\source\repos\ConsoleApp14\ConsoleApp14\bin\Debug\netcoreapp3.1\ConsoleApp14.exe
+C:\Users\OWNER\source\repos\ConsoleApp14\ConsoleApp14\bin\Debug\netcoreapp3.1\ConsoleApp14.deps.json
+C:\Users\OWNER\source\repos\ConsoleApp14\ConsoleApp14\bin\Debug\netcoreapp3.1\ConsoleApp14.runtimeconfig.json
+C:\Users\OWNER\source\repos\ConsoleApp14\ConsoleApp14\bin\Debug\netcoreapp3.1\ConsoleApp14.runtimeconfig.dev.json
+C:\Users\OWNER\source\repos\ConsoleApp14\ConsoleApp14\bin\Debug\netcoreapp3.1\ConsoleApp14.dll
+C:\Users\OWNER\source\repos\ConsoleApp14\ConsoleApp14\bin\Debug\netcoreapp3.1\ConsoleApp14.pdb
+C:\Users\OWNER\source\repos\ConsoleApp14\ConsoleApp14\obj\Debug\netcoreapp3.1\ConsoleApp14.csproj.AssemblyReference.cache
+C:\Users\OWNER\source\repos\ConsoleApp14\ConsoleApp14\obj\Debug\netcoreapp3.1\ConsoleApp14.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\OWNER\source\repos\ConsoleApp14\ConsoleApp14\obj\Debug\netcoreapp3.1\ConsoleApp14.AssemblyInfoInputs.cache
+C:\Users\OWNER\source\repos\ConsoleApp14\ConsoleApp14\obj\Debug\netcoreapp3.1\ConsoleApp14.AssemblyInfo.cs
+C:\Users\OWNER\source\repos\ConsoleApp14\ConsoleApp14\obj\Debug\netcoreapp3.1\ConsoleApp14.csproj.CoreCompileInputs.cache
+C:\Users\OWNER\source\repos\ConsoleApp14\ConsoleApp14\obj\Debug\netcoreapp3.1\ConsoleApp14.dll
+C:\Users\OWNER\source\repos\ConsoleApp14\ConsoleApp14\obj\Debug\netcoreapp3.1\ConsoleApp14.pdb
+C:\Users\OWNER\source\repos\ConsoleApp14\ConsoleApp14\obj\Debug\netcoreapp3.1\ConsoleApp14.genruntimeconfig.cache

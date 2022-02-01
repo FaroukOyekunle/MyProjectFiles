@@ -1,0 +1,16 @@
+C:\Users\OWNER\source\repos\three method declaration\three method declaration\bin\Debug\net5.0\three method declaration.exe
+C:\Users\OWNER\source\repos\three method declaration\three method declaration\bin\Debug\net5.0\three method declaration.deps.json
+C:\Users\OWNER\source\repos\three method declaration\three method declaration\bin\Debug\net5.0\three method declaration.runtimeconfig.json
+C:\Users\OWNER\source\repos\three method declaration\three method declaration\bin\Debug\net5.0\three method declaration.runtimeconfig.dev.json
+C:\Users\OWNER\source\repos\three method declaration\three method declaration\bin\Debug\net5.0\three method declaration.dll
+C:\Users\OWNER\source\repos\three method declaration\three method declaration\bin\Debug\net5.0\ref\three method declaration.dll
+C:\Users\OWNER\source\repos\three method declaration\three method declaration\bin\Debug\net5.0\three method declaration.pdb
+C:\Users\OWNER\source\repos\three method declaration\three method declaration\obj\Debug\net5.0\three method declaration.csproj.AssemblyReference.cache
+C:\Users\OWNER\source\repos\three method declaration\three method declaration\obj\Debug\net5.0\three method declaration.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\OWNER\source\repos\three method declaration\three method declaration\obj\Debug\net5.0\three method declaration.AssemblyInfoInputs.cache
+C:\Users\OWNER\source\repos\three method declaration\three method declaration\obj\Debug\net5.0\three method declaration.AssemblyInfo.cs
+C:\Users\OWNER\source\repos\three method declaration\three method declaration\obj\Debug\net5.0\three method declaration.csproj.CoreCompileInputs.cache
+C:\Users\OWNER\source\repos\three method declaration\three method declaration\obj\Debug\net5.0\three method declaration.dll
+C:\Users\OWNER\source\repos\three method declaration\three method declaration\obj\Debug\net5.0\ref\three method declaration.dll
+C:\Users\OWNER\source\repos\three method declaration\three method declaration\obj\Debug\net5.0\three method declaration.pdb
+C:\Users\OWNER\source\repos\three method declaration\three method declaration\obj\Debug\net5.0\three method declaration.genruntimeconfig.cache

@@ -1,0 +1,16 @@
+C:\Users\OWNER\source\repos\Batch7CodeChallenge\Batch7CodeChallenge\bin\Debug\net5.0\Batch7CodeChallenge.exe
+C:\Users\OWNER\source\repos\Batch7CodeChallenge\Batch7CodeChallenge\bin\Debug\net5.0\Batch7CodeChallenge.deps.json
+C:\Users\OWNER\source\repos\Batch7CodeChallenge\Batch7CodeChallenge\bin\Debug\net5.0\Batch7CodeChallenge.runtimeconfig.json
+C:\Users\OWNER\source\repos\Batch7CodeChallenge\Batch7CodeChallenge\bin\Debug\net5.0\Batch7CodeChallenge.runtimeconfig.dev.json
+C:\Users\OWNER\source\repos\Batch7CodeChallenge\Batch7CodeChallenge\bin\Debug\net5.0\Batch7CodeChallenge.dll
+C:\Users\OWNER\source\repos\Batch7CodeChallenge\Batch7CodeChallenge\bin\Debug\net5.0\ref\Batch7CodeChallenge.dll
+C:\Users\OWNER\source\repos\Batch7CodeChallenge\Batch7CodeChallenge\bin\Debug\net5.0\Batch7CodeChallenge.pdb
+C:\Users\OWNER\source\repos\Batch7CodeChallenge\Batch7CodeChallenge\obj\Debug\net5.0\Batch7CodeChallenge.csproj.AssemblyReference.cache
+C:\Users\OWNER\source\repos\Batch7CodeChallenge\Batch7CodeChallenge\obj\Debug\net5.0\Batch7CodeChallenge.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\OWNER\source\repos\Batch7CodeChallenge\Batch7CodeChallenge\obj\Debug\net5.0\Batch7CodeChallenge.AssemblyInfoInputs.cache
+C:\Users\OWNER\source\repos\Batch7CodeChallenge\Batch7CodeChallenge\obj\Debug\net5.0\Batch7CodeChallenge.AssemblyInfo.cs
+C:\Users\OWNER\source\repos\Batch7CodeChallenge\Batch7CodeChallenge\obj\Debug\net5.0\Batch7CodeChallenge.csproj.CoreCompileInputs.cache
+C:\Users\OWNER\source\repos\Batch7CodeChallenge\Batch7CodeChallenge\obj\Debug\net5.0\Batch7CodeChallenge.dll
+C:\Users\OWNER\source\repos\Batch7CodeChallenge\Batch7CodeChallenge\obj\Debug\net5.0\ref\Batch7CodeChallenge.dll
+C:\Users\OWNER\source\repos\Batch7CodeChallenge\Batch7CodeChallenge\obj\Debug\net5.0\Batch7CodeChallenge.pdb
+C:\Users\OWNER\source\repos\Batch7CodeChallenge\Batch7CodeChallenge\obj\Debug\net5.0\Batch7CodeChallenge.genruntimeconfig.cache

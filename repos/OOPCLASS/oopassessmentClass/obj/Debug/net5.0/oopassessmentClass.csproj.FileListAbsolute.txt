@@ -1,0 +1,16 @@
+C:\Users\OWNER\source\repos\OOPCLASS\oopassessmentClass\bin\Debug\net5.0\oopassessmentClass.exe
+C:\Users\OWNER\source\repos\OOPCLASS\oopassessmentClass\bin\Debug\net5.0\oopassessmentClass.deps.json
+C:\Users\OWNER\source\repos\OOPCLASS\oopassessmentClass\bin\Debug\net5.0\oopassessmentClass.runtimeconfig.json
+C:\Users\OWNER\source\repos\OOPCLASS\oopassessmentClass\bin\Debug\net5.0\oopassessmentClass.runtimeconfig.dev.json
+C:\Users\OWNER\source\repos\OOPCLASS\oopassessmentClass\bin\Debug\net5.0\oopassessmentClass.dll
+C:\Users\OWNER\source\repos\OOPCLASS\oopassessmentClass\bin\Debug\net5.0\ref\oopassessmentClass.dll
+C:\Users\OWNER\source\repos\OOPCLASS\oopassessmentClass\bin\Debug\net5.0\oopassessmentClass.pdb
+C:\Users\OWNER\source\repos\OOPCLASS\oopassessmentClass\obj\Debug\net5.0\oopassessmentClass.csproj.AssemblyReference.cache
+C:\Users\OWNER\source\repos\OOPCLASS\oopassessmentClass\obj\Debug\net5.0\oopassessmentClass.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\OWNER\source\repos\OOPCLASS\oopassessmentClass\obj\Debug\net5.0\oopassessmentClass.AssemblyInfoInputs.cache
+C:\Users\OWNER\source\repos\OOPCLASS\oopassessmentClass\obj\Debug\net5.0\oopassessmentClass.AssemblyInfo.cs
+C:\Users\OWNER\source\repos\OOPCLASS\oopassessmentClass\obj\Debug\net5.0\oopassessmentClass.csproj.CoreCompileInputs.cache
+C:\Users\OWNER\source\repos\OOPCLASS\oopassessmentClass\obj\Debug\net5.0\oopassessmentClass.dll
+C:\Users\OWNER\source\repos\OOPCLASS\oopassessmentClass\obj\Debug\net5.0\ref\oopassessmentClass.dll
+C:\Users\OWNER\source\repos\OOPCLASS\oopassessmentClass\obj\Debug\net5.0\oopassessmentClass.pdb
+C:\Users\OWNER\source\repos\OOPCLASS\oopassessmentClass\obj\Debug\net5.0\oopassessmentClass.genruntimeconfig.cache

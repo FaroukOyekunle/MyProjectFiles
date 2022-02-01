@@ -1,0 +1,16 @@
+C:\Users\OWNER\source\repos\IqueryableLinq\IqueryableLinq\bin\Debug\net5.0\IqueryableLinq.exe
+C:\Users\OWNER\source\repos\IqueryableLinq\IqueryableLinq\bin\Debug\net5.0\IqueryableLinq.deps.json
+C:\Users\OWNER\source\repos\IqueryableLinq\IqueryableLinq\bin\Debug\net5.0\IqueryableLinq.runtimeconfig.json
+C:\Users\OWNER\source\repos\IqueryableLinq\IqueryableLinq\bin\Debug\net5.0\IqueryableLinq.runtimeconfig.dev.json
+C:\Users\OWNER\source\repos\IqueryableLinq\IqueryableLinq\bin\Debug\net5.0\IqueryableLinq.dll
+C:\Users\OWNER\source\repos\IqueryableLinq\IqueryableLinq\bin\Debug\net5.0\ref\IqueryableLinq.dll
+C:\Users\OWNER\source\repos\IqueryableLinq\IqueryableLinq\bin\Debug\net5.0\IqueryableLinq.pdb
+C:\Users\OWNER\source\repos\IqueryableLinq\IqueryableLinq\obj\Debug\net5.0\IqueryableLinq.csproj.AssemblyReference.cache
+C:\Users\OWNER\source\repos\IqueryableLinq\IqueryableLinq\obj\Debug\net5.0\IqueryableLinq.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\OWNER\source\repos\IqueryableLinq\IqueryableLinq\obj\Debug\net5.0\IqueryableLinq.AssemblyInfoInputs.cache
+C:\Users\OWNER\source\repos\IqueryableLinq\IqueryableLinq\obj\Debug\net5.0\IqueryableLinq.AssemblyInfo.cs
+C:\Users\OWNER\source\repos\IqueryableLinq\IqueryableLinq\obj\Debug\net5.0\IqueryableLinq.csproj.CoreCompileInputs.cache
+C:\Users\OWNER\source\repos\IqueryableLinq\IqueryableLinq\obj\Debug\net5.0\IqueryableLinq.dll
+C:\Users\OWNER\source\repos\IqueryableLinq\IqueryableLinq\obj\Debug\net5.0\ref\IqueryableLinq.dll
+C:\Users\OWNER\source\repos\IqueryableLinq\IqueryableLinq\obj\Debug\net5.0\IqueryableLinq.pdb
+C:\Users\OWNER\source\repos\IqueryableLinq\IqueryableLinq\obj\Debug\net5.0\IqueryableLinq.genruntimeconfig.cache

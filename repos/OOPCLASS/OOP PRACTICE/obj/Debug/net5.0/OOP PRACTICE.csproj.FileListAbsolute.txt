@@ -1,0 +1,16 @@
+C:\Users\OWNER\source\repos\OOPCLASS\OOP PRACTICE\bin\Debug\net5.0\OOP PRACTICE.exe
+C:\Users\OWNER\source\repos\OOPCLASS\OOP PRACTICE\bin\Debug\net5.0\OOP PRACTICE.deps.json
+C:\Users\OWNER\source\repos\OOPCLASS\OOP PRACTICE\bin\Debug\net5.0\OOP PRACTICE.runtimeconfig.json
+C:\Users\OWNER\source\repos\OOPCLASS\OOP PRACTICE\bin\Debug\net5.0\OOP PRACTICE.runtimeconfig.dev.json
+C:\Users\OWNER\source\repos\OOPCLASS\OOP PRACTICE\bin\Debug\net5.0\OOP PRACTICE.dll
+C:\Users\OWNER\source\repos\OOPCLASS\OOP PRACTICE\bin\Debug\net5.0\ref\OOP PRACTICE.dll
+C:\Users\OWNER\source\repos\OOPCLASS\OOP PRACTICE\bin\Debug\net5.0\OOP PRACTICE.pdb
+C:\Users\OWNER\source\repos\OOPCLASS\OOP PRACTICE\obj\Debug\net5.0\OOP PRACTICE.csproj.AssemblyReference.cache
+C:\Users\OWNER\source\repos\OOPCLASS\OOP PRACTICE\obj\Debug\net5.0\OOP PRACTICE.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\OWNER\source\repos\OOPCLASS\OOP PRACTICE\obj\Debug\net5.0\OOP PRACTICE.AssemblyInfoInputs.cache
+C:\Users\OWNER\source\repos\OOPCLASS\OOP PRACTICE\obj\Debug\net5.0\OOP PRACTICE.AssemblyInfo.cs
+C:\Users\OWNER\source\repos\OOPCLASS\OOP PRACTICE\obj\Debug\net5.0\OOP PRACTICE.csproj.CoreCompileInputs.cache
+C:\Users\OWNER\source\repos\OOPCLASS\OOP PRACTICE\obj\Debug\net5.0\OOP PRACTICE.dll
+C:\Users\OWNER\source\repos\OOPCLASS\OOP PRACTICE\obj\Debug\net5.0\ref\OOP PRACTICE.dll
+C:\Users\OWNER\source\repos\OOPCLASS\OOP PRACTICE\obj\Debug\net5.0\OOP PRACTICE.pdb
+C:\Users\OWNER\source\repos\OOPCLASS\OOP PRACTICE\obj\Debug\net5.0\OOP PRACTICE.genruntimeconfig.cache

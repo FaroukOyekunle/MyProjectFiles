@@ -1,0 +1,503 @@
+﻿@using Microsoft.Extensions.Configuration;
+@inject IConfiguration configuration;
+@{
+    var appBaseUrl = configuration.GetValue<string>("AppBaseUrl");
+    var apiBaseUrl = configuration.GetValue<string>("ApiBaseUrl");
+}
+<!DOCTYPE html>
+@*<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>@ViewData["Title"] - UI</title>
+        <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+        <link rel="stylesheet" href="~/css/site.css" />
+        @RenderSection("style", required: false)
+    </head>
+    <body>
+        <header>
+            <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
+                <div class="container">
+                    <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">UI</a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".navbar-collapse" aria-controls="navbarSupportedContent"
+                            aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
+                        <ul class="navbar-nav flex-grow-1">
+                            <li class="nav-item">
+                                <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="collapse navbar-collapse mr-3 " id="navbarNav">
+                    <ul class="navbar-nav">
+                        @if (User != null && User.Identity.IsAuthenticated)
+                        {
+                            <li class="nav-item active mr-3 float-right">
+                                <a class="nav-link text-success" href="#">@User.Identity.Name</a>
+                            </li>
+                            <li class="nav-item mr-3 float-right">
+                                <a class="nav-link text-success  mr-3" asp-area="" asp-controller="User" asp-action="Logout"><i class="fas fa-user"></i> Logout</a>
+                            </li>
+                        }
+                        else
+                        {
+                            <a class="nav-link text-success  mr-3" asp-area="" asp-controller="User" asp-action="Login"><i class="fas fa-user"></i>Login</a>
+                        }
+                        <li class="nav-item float-right">
+                            <a class="nav-link text-success " asp-area="" asp-controller="User" asp-action="Create"><i class="fas fa-user"></i>Sign up</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+        <div class="container">
+            <main role="main" class="pb-3">
+                @RenderBody()
+            </main>
+        </div>
+        <footer class="border-top footer text-muted">
+            <div class="container">
+                &copy; 2021 - UI - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
+            </div>
+        </footer>
+        <script src="~/lib/jquery/dist/jquery.min.js"></script>
+        <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+        <script src="~/js/site.js" asp-append-version="true"></script>
+        @await RenderSectionAsync("Scripts", required: false)
+    </body>
+    </html>
+    <!DOCTYPE html>*@
+<html lang="en">
+<head>
+    <title>CodeLearners Library</title>
+
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="~/css/bootstrap.min.css">
+
+    <!-- FontAwesome CSS -->
+    <link rel="stylesheet" href="~/css/font-awesome.min.css">
+
+    <!-- ElegantFonts CSS -->
+    <link rel="stylesheet" href="~/css/elegant-fonts.css">
+
+    <!-- themify-icons CSS -->
+    <link rel="stylesheet" href="~/css/themify-icons.css">
+
+    <!-- Swiper CSS -->
+    <link rel="stylesheet" href="~/css/swiper.min.css">
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="~/style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700" />
+    <!--end::Fonts-->
+    <!--begin::Page Vendors Styles(used by this page)-->
+    <link href="~/assets/plugins/custom/fullcalendar/fullcalendar.bundle.css" rel="stylesheet" type="text/css" />
+    <!--end::Page Vendors Styles-->
+    <!--begin::Global Theme Styles(used by all pages)-->
+    <link href="~/assets/plugins/global/plugins.bundle.css" rel="stylesheet" type="text/css" />
+    <link href="~/assets/plugins/custom/prismjs/prismjs.bundle.css" rel="stylesheet" type="text/css" />
+    <link href="~/assets/css/style.bundle.css" rel="stylesheet" type="text/css" />
+    <!--end::Global Theme Styles-->
+    <!--begin::Layout Themes(used by all pages)-->
+    <link href="~/assets/css/themes/layout/header/base/light.css" rel="stylesheet" type="text/css" />
+    <link href="~/assets/css/themes/layout/header/menu/light.css" rel="stylesheet" type="text/css" />
+    <link href="~/assets/css/themes/layout/brand/dark.css" rel="stylesheet" type="text/css" />
+    <link href="~/assets/css/themes/layout/aside/dark.css" rel="stylesheet" type="text/css" />
+    <link href="~/css/site.css" rel="stylesheet" />
+    <!--end::Layout Themes-->
+    <!--begin::IDH-STYLE.css-->
+    <link href="~/assets/idhstyle.css" rel="stylesheet" type="text/css" />
+    <!--end::IDH-STYLE.css-->
+    <!--begin::FONTAWESOME ICONS-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+          crossorigin="anonymous">
+
+    <!--end::FONTAWESOME ICONS-->
+
+    <link rel="icon" type="image/png" sizes="16x16" href="~/assets/media/logos/idh_lg_blue.png">
+
+    <!--Toastr Notification CSS-->
+    <link rel="stylesheet" href="~/assets/toastr/toastr.min.css" />
+</head>
+<body>
+    <div class="">
+        <header class="site-header">
+            <div class="top-header-bar">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-12 col-lg-6 d-none d-md-flex flex-wrap justify-content-center justify-content-lg-start mb-3 mb-lg-0">
+                            <div class="header-bar-email d-flex align-items-center">
+                                <i class="fa fa-envelope"></i><a href="#">e-library@codelearners.com</a>
+                            </div><!-- .header-bar-email -->
+
+                            <div class="header-bar-text lg-flex align-items-center">
+                                <p><i class="fa fa-phone"></i>001-1234-88888 </p>
+                            </div><!-- .header-bar-text -->
+
+                        </div><!-- .col -->
+
+                        <div class="col-12 col-lg-6 d-flex flex-wrap justify-content-center justify-content-lg-end align-items-center">
+
+
+                            <div class="header-bar-menu">
+                                <ul class="flex justify-content-center align-items-center py-2 pt-md-0">
+                                    <li><a asp-controller="User" asp-action="Register">Register</a></li>
+                                    @if (User != null && User.Identity.IsAuthenticated)
+
+                                    {
+                                        <li><a href="#">@User.Identity.Name</a></li>
+                                        <li><a asp-controller="User" asp-action="Logout">Log out</a></li>
+                                    }
+                                    else
+                                    {
+                                        <li><a asp-controller="User" asp-action="Login">Login</a></li>
+                                    }
+
+
+                                </ul>
+                            </div><!-- .header-bar-menu -->
+                        </div><!-- .col -->
+                    </div><!-- .row -->
+                </div><!-- .container-fluid -->
+            </div><!-- .top-header-bar -->
+
+            <div class="nav-bar">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-9 col-lg-3">
+                            <div class="site-branding">
+                                <h1 class="site-title"><a href="index.html" rel="home">Code<span>Learners</span></a></h1>
+                            </div><!-- .site-branding -->
+                        </div><!-- .col -->
+
+                        <div class="col-3 col-lg-9 flex justify-content-end align-content-center">
+                            <nav class="site-navigation flex justify-content-end align-items-center">
+                                <ul class="flex flex-column flex-lg-row justify-content-lg-end align-content-center">
+                                    <li class="current-menu-item"><a href="index.html">Home</a></li>
+                                    <li><a href="#">About</a></li>
+                                    <li><a href="#">Courses</a></li>
+                                    <li><a href="#">blog</a></li>
+                                    <li><a href="#">Contact</a></li>
+                                </ul>
+
+                                <div class="hamburger-menu d-lg-none">
+                                    <span></span>
+                                    <span></span>
+                                    <span></span>
+                                    <span></span>
+                                </div><!-- .hamburger-menu -->
+
+                                <div class="header-bar-cart">
+                                    <a href="#" class="flex justify-content-center align-items-center"><span aria-hidden="true" class="icon_bag_alt"></span></a>
+                                </div><!-- .header-bar-search -->
+                            </nav><!-- .site-navigation -->
+                        </div><!-- .col -->
+                    </div><!-- .row -->
+                </div><!-- .container -->
+            </div><!-- .nav-bar -->
+        </header><!-- .site-header -->
+        <div>
+        </div>
+        <main role="main">
+            @RenderBody()
+        </main>
+    </div>
+    <!-- .hero-content-hero-content-overlay -->
+    <!-- .hero-content -->
+
+
+
+    <footer class="site-footer">
+        <div class="footer-widgets">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 col-md-6 col-lg-3">
+                        <div class="foot-about">
+                            <a class="foot-logo" href="#"><img src="~/images/foot-logo.png" alt=""></a>
+
+                            <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia dese mollit anim id est laborum. </p>
+
+                            <p class="footer-copyright">
+                                <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+                                Copyright &copy;
+                                <script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
+                                <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+                            </p>
+                        </div><!-- .foot-about -->
+                    </div><!-- .col -->
+
+                    <div class="col-12 col-md-6 col-lg-3 mt-5 mt-md-0">
+                        <div class="foot-contact">
+                            <h2>Contact Us</h2>
+
+                            <ul>
+                                <li>Email: info.deertcreative@gmail.com</li>
+                                <li>Phone: (+88) 111 555 666</li>
+                                <li>Address: 40 Baria Sreet 133/2 NewYork City, US</li>
+                            </ul>
+                        </div><!-- .foot-contact -->
+                    </div><!-- .col -->
+
+                    <div class="col-12 col-md-6 col-lg-3 mt-5 mt-lg-0">
+                        <div class="quick-links flex flex-wrap">
+                            <h2 class="w-100">Quick Links</h2>
+
+                            <ul class="w-50">
+                                <li><a href="#">About </a></li>
+                                <li><a href="#">Terms of Use </a></li>
+                                <li><a href="#">Privacy Policy </a></li>
+                                <li><a href="#">Contact Us</a></li>
+                            </ul>
+
+                            <ul class="w-50">
+                                <li><a href="#">Documentation</a></li>
+                                <li><a href="#">Forums</a></li>
+                                <li><a href="#">Language Packs</a></li>
+                                <li><a href="#">Release Status</a></li>
+                            </ul>
+                        </div><!-- .quick-links -->
+                    </div><!-- .col -->
+
+                    <div class="col-12 col-md-6 col-lg-3 mt-5 mt-lg-0">
+                        <div class="follow-us">
+                            <h2>Follow Us</h2>
+
+                            <ul class="follow-us flex flex-wrap align-items-center">
+                                <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                                <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+                                <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+                                <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                            </ul>
+                        </div><!-- .quick-links -->
+                    </div><!-- .col -->
+                </div><!-- .row -->
+            </div><!-- .container -->
+        </div><!-- .footer-widgets -->
+
+        <div class="footer-bar">
+            <div class="container">
+                <div class="row flex-wrap justify-content-center justify-content-lg-between align-items-center">
+                    <div class="col-12 col-lg-6">
+                        <div class="download-apps flex flex-wrap justify-content-center justify-content-lg-start align-items-center">
+                            <a href="#"><img src="~/images/app-store.png" alt=""></a>
+                            <a href="#"><img src="~/images/play-store.png" alt=""></a>
+                        </div><!-- .download-apps -->
+
+                    </div>
+
+                    <div class="col-12 col-lg-6 mt-4 mt-lg-0">
+                        <div class="footer-bar-nav">
+                            <ul class="flex flex-wrap justify-content-center justify-content-lg-end align-items-center">
+                                <li><a href="#">DPA</a></li>
+                                <li><a href="#">Terms of Use</a></li>
+                                <li><a href="#">Privacy Policy</a></li>
+                            </ul>
+                        </div><!-- .footer-bar-nav -->
+                    </div><!-- .col-12 -->
+                </div><!-- .row -->
+            </div><!-- .container -->
+        </div><!-- .footer-bar -->
+    </footer><!-- .site-footer -->
+
+    <script type='text/javascript' src='~/js/jquery.js'></script>
+    <script type='text/javascript' src='~/js/swiper.min.js'></script>
+    <script type='text/javascript' src='~/js/masonry.pkgd.min.js'></script>
+    <script type='text/javascript' src='~/js/jquery.collapsible.min.js'></script>
+    <script type='text/javascript' src='~/js/custom.js'></script>
+    <script>
+        let appConfig = {
+            appBaseUrl: "@appBaseUrl/home/index",
+            apiBaseUrl: "@apiBaseUrl/api",
+            loginUrl: "@appBaseUrl/account/login",
+            registerUrl: "@appBaseUrl/account/register",
+            apiKey: ""
+        }
+    </script>
+    <!--begin::Global Theme Bundle(used by all pages)-->
+    <script src="~/assets/plugins/global/plugins.bundle.js"></script>
+    <script src="~/assets/plugins/custom/prismjs/prismjs.bundle.js"></script>
+    <script src="~/assets/js/scripts.bundle.js"></script>
+    <!--end::Global Theme Bundle-->
+    <!--begin::Page Scripts(used by this page)-->
+    <script src="~/assets/js/pages/custom/login/login-general.js"></script>
+    <!--end::Page Scripts-->
+    <!--begin::Page Vendors(used by this page)-->
+    <script src="~/assets/plugins/custom/fullcalendar/fullcalendar.bundle.js"></script>
+    <!--end::Page Vendors-->
+    <!--begin::Page Scripts(used by this page)-->
+    <script src="~/assets/js/pages/widgets.js"></script>
+    <!--end::Page Scripts-->
+    <script src="~/vendors/scripts/core.js"></script>
+    <script src="~/vendors/scripts/script.min.js"></script>
+    <script src="~/vendors/scripts/process.js"></script>
+    <script src="~/vendors/scripts/layout-settings.js"></script>
+    <script src="~/assets/toastr/toastr.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.js.map"></script>
+    <script src="~/js/notification.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="~/js/configuration.js"></script>
+    <script src="~/js/authentication.js"></script>
+    <script src="~/js/utility.js"></script>
+    <script>
+        updateUserInfoDisplay();
+    </script>
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>
+@*<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>@ViewData["Title"] - Library Management System</title>
+        <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+        <link rel="stylesheet" href="~/css/site.css" />
+    </head>
+    <body>
+        <header>
+            <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-dark bg-dark border-bottom box-shadow mb-3">
+                <div class="container">
+                    <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index"> Library Management System.</a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".navbar-collapse" aria-controls="navbarSupportedContent"
+                            aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
+                        <ul class="navbar-nav flex-grow-1">
+                            <li class="nav-item">
+                                <a class="nav-link text-white" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-white" asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="nav-link text-white" asp-area="" asp-controller="Category" asp-action="Index">Categories</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-white" asp-area="" asp-controller="Book" asp-action="Index">Books</a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="nav-link text-white" asp-area="" asp-controller="User" asp-action="Index">Users</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-white" asp-area="" asp-controller="Role" asp-action="Index">Roles</a>
+                            </li>
+
+                        </ul>
+
+                    </div>
+                    <div class="collapse navbar-collapse">
+                        <ul class="navbar-nav">
+                            @if (User != null && User.Identity.IsAuthenticated)
+                            {
+                                <li class="nav-itme active mr-3 float-right">
+                                    <a class="nav-link text-success" href="#">@User.Identity.Name</a>
+                                </li>
+                                <li class="nav-itme active mr-3 float-right">
+                                    <a class="nav-link text-success" asp-area="" asp-controller="User" asp-action="LogOut"><i class="fas fa-user">Logout</i></a>
+                                </li>
+                            }
+
+                        </ul>
+
+                    </div>
+                </div>
+            </nav>
+        </header>
+        <div class="container">
+            <main role="main" class="pb-3">
+                @RenderBody()
+            </main>
+        </div>
+
+        <footer class="border-top footer text-muted">
+            <div class="container">
+                &copy; 2022 - Library Management System - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
+            </div>
+        </footer>
+        <script src="~/lib/jquery/dist/jquery.min.js"></script>
+        <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+        <script src="~/js/site.js" asp-append-version="true"></script>
+        @await RenderSectionAsync("Scripts", required: false)
+    </body>
+    </html>*@
+@*<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>@ViewData["Title"] - UI</title>
+        <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+        <link rel="stylesheet" href="~/css/site.css" />
+        @RenderSection("style", required: false)
+    </head>
+    <body>
+        <header>
+            <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
+                <div class="container">
+                    <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">UI</a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".navbar-collapse" aria-controls="navbarSupportedContent"
+                            aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
+                        <ul class="navbar-nav flex-grow-1">
+                            <li class="nav-item">
+                                <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="collapse navbar-collapse mr-3 " id="navbarNav">
+                    <ul class="navbar-nav">
+                        @if (User != null && User.Identity.IsAuthenticated)
+                        {
+                            <li class="nav-item active mr-3 float-right">
+                                <a class="nav-link text-success" href="#">@User.Identity.Name</a>
+                            </li>
+                            <li class="nav-item mr-3 float-right">
+                                <a class="nav-link text-success  mr-3" asp-area="" asp-controller="User" asp-action="Logout"><i class="fas fa-user"></i> Logout</a>
+                            </li>
+                        }
+                        else
+                        {
+                            <a class="nav-link text-success  mr-3" asp-area="" asp-controller="User" asp-action="Login"><i class="fas fa-user"></i>Login</a>
+                        }
+                        <li class="nav-item float-right">
+                            <a class="nav-link text-success " asp-area="" asp-controller="User" asp-action="Create"><i class="fas fa-user"></i>Sign up</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+        <div class="container">
+            <main role="main" class="pb-3">
+                @RenderBody()
+            </main>
+        </div>
+        <footer class="border-top footer text-muted">
+            <div class="container">
+                &copy; 2021 - UI - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
+            </div>
+        </footer>
+        <script src="~/lib/jquery/dist/jquery.min.js"></script>
+        <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+        <script src="~/js/site.js" asp-append-version="true"></script>
+        @await RenderSectionAsync("Scripts", required: false)
+    </body>
+    </html>
+    <!DOCTYPE html>*@

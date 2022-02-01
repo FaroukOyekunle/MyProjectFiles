@@ -1,0 +1,16 @@
+C:\Users\OWNER\source\repos\GroupAChallenge\GroupAChallenge\bin\Debug\net5.0\GroupAChallenge.exe
+C:\Users\OWNER\source\repos\GroupAChallenge\GroupAChallenge\bin\Debug\net5.0\GroupAChallenge.deps.json
+C:\Users\OWNER\source\repos\GroupAChallenge\GroupAChallenge\bin\Debug\net5.0\GroupAChallenge.runtimeconfig.json
+C:\Users\OWNER\source\repos\GroupAChallenge\GroupAChallenge\bin\Debug\net5.0\GroupAChallenge.runtimeconfig.dev.json
+C:\Users\OWNER\source\repos\GroupAChallenge\GroupAChallenge\bin\Debug\net5.0\GroupAChallenge.dll
+C:\Users\OWNER\source\repos\GroupAChallenge\GroupAChallenge\bin\Debug\net5.0\ref\GroupAChallenge.dll
+C:\Users\OWNER\source\repos\GroupAChallenge\GroupAChallenge\bin\Debug\net5.0\GroupAChallenge.pdb
+C:\Users\OWNER\source\repos\GroupAChallenge\GroupAChallenge\obj\Debug\net5.0\GroupAChallenge.csproj.AssemblyReference.cache
+C:\Users\OWNER\source\repos\GroupAChallenge\GroupAChallenge\obj\Debug\net5.0\GroupAChallenge.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\OWNER\source\repos\GroupAChallenge\GroupAChallenge\obj\Debug\net5.0\GroupAChallenge.AssemblyInfoInputs.cache
+C:\Users\OWNER\source\repos\GroupAChallenge\GroupAChallenge\obj\Debug\net5.0\GroupAChallenge.AssemblyInfo.cs
+C:\Users\OWNER\source\repos\GroupAChallenge\GroupAChallenge\obj\Debug\net5.0\GroupAChallenge.csproj.CoreCompileInputs.cache
+C:\Users\OWNER\source\repos\GroupAChallenge\GroupAChallenge\obj\Debug\net5.0\GroupAChallenge.dll
+C:\Users\OWNER\source\repos\GroupAChallenge\GroupAChallenge\obj\Debug\net5.0\ref\GroupAChallenge.dll
+C:\Users\OWNER\source\repos\GroupAChallenge\GroupAChallenge\obj\Debug\net5.0\GroupAChallenge.pdb
+C:\Users\OWNER\source\repos\GroupAChallenge\GroupAChallenge\obj\Debug\net5.0\GroupAChallenge.genruntimeconfig.cache

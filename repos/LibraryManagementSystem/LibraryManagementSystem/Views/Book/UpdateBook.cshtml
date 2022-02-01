@@ -1,0 +1,65 @@
+﻿@model LibraryManagementSystem.Models.UpdateBookRequestModel
+
+
+<div class="container">
+    <div class="row justify-content-center">
+        <div class=" card col-md-6">
+            <div class="card-body ">
+                <div class="bg-light">
+                    <h1 class="tagcolor" style="color:aqua">Book</h1>
+                    <p class="tagcolor" style="color:lightgreen">Please fill in this form to Update this Book.</p>
+                    <hr class="tagcolor" style="color:mediumaquamarine">
+
+                </div>
+                <form asp-action="Update">
+                    <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+
+                    <div class="form-row">
+                       
+                        <div class="form-group col-sm-6">
+                            <label asp-for="Price" class="control-label"></label>
+                            <input asp-for="Price" class="form-control" />
+                            <span asp-validation-for="Price" class="text-danger"></span>
+                        </div>
+                        <div class="form-group col-sm-6">
+                            <label asp-for="BookPDF" class="control-label"></label>
+                            <input asp-for="BookPDF" class="form-control" />
+                            <span asp-validation-for="BookPDF" class="text-danger"></span>
+                        </div>
+                        <div class="form-group col-sm-6">
+                            <label asp-for="BookImage" class="control-label"></label>
+                            <input asp-for="BookImage" class="form-control" />
+                            <span asp-validation-for="BookImage" class="text-danger"></span>
+                        </div>
+                        <div class="form-group col-sm-6">
+                            <label asp-for="AccessibilityStatus" class="control-label"></label>
+                            <input asp-for="AccessibilityStatus" class="form-control" />
+                            <span asp-validation-for="AccessibilityStatus" class="text-danger"></span>
+                        </div>
+                        <div class="form-group col-sm-6">
+                            <label asp-for="AvailabilityStatus" class="control-label"></label>
+                            <input asp-for="AvailabilityStatus" class="form-control" />
+                            <span asp-validation-for="AvailabilityStatus" class="text-danger"></span>
+                        </div>
+
+                    </div>
+
+
+                    <div class="form-group ">
+                        <input href="#myModal" type="submit" value="Submit" class="btn btn-success trigger-btn col-sm-12" data-toggle="modal" />
+                    </div>
+
+                </form>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+
+
+
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

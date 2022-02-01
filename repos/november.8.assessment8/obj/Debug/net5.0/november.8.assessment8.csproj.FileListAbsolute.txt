@@ -1,0 +1,15 @@
+C:\Users\OWNER\source\repos\november.8.assessment8\bin\Debug\net5.0\november.8.assessment8.exe
+C:\Users\OWNER\source\repos\november.8.assessment8\bin\Debug\net5.0\november.8.assessment8.deps.json
+C:\Users\OWNER\source\repos\november.8.assessment8\bin\Debug\net5.0\november.8.assessment8.runtimeconfig.json
+C:\Users\OWNER\source\repos\november.8.assessment8\bin\Debug\net5.0\november.8.assessment8.runtimeconfig.dev.json
+C:\Users\OWNER\source\repos\november.8.assessment8\bin\Debug\net5.0\november.8.assessment8.dll
+C:\Users\OWNER\source\repos\november.8.assessment8\bin\Debug\net5.0\ref\november.8.assessment8.dll
+C:\Users\OWNER\source\repos\november.8.assessment8\bin\Debug\net5.0\november.8.assessment8.pdb
+C:\Users\OWNER\source\repos\november.8.assessment8\obj\Debug\net5.0\november.8.assessment8.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\OWNER\source\repos\november.8.assessment8\obj\Debug\net5.0\november.8.assessment8.AssemblyInfoInputs.cache
+C:\Users\OWNER\source\repos\november.8.assessment8\obj\Debug\net5.0\november.8.assessment8.AssemblyInfo.cs
+C:\Users\OWNER\source\repos\november.8.assessment8\obj\Debug\net5.0\november.8.assessment8.csproj.CoreCompileInputs.cache
+C:\Users\OWNER\source\repos\november.8.assessment8\obj\Debug\net5.0\november.8.assessment8.dll
+C:\Users\OWNER\source\repos\november.8.assessment8\obj\Debug\net5.0\ref\november.8.assessment8.dll
+C:\Users\OWNER\source\repos\november.8.assessment8\obj\Debug\net5.0\november.8.assessment8.pdb
+C:\Users\OWNER\source\repos\november.8.assessment8\obj\Debug\net5.0\november.8.assessment8.genruntimeconfig.cache

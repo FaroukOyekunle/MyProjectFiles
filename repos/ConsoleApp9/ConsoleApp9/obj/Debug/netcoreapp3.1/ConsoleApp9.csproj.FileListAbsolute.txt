@@ -1,0 +1,14 @@
+C:\Users\OWNER\source\repos\ConsoleApp9\ConsoleApp9\obj\Debug\netcoreapp3.1\ConsoleApp9.csproj.AssemblyReference.cache
+C:\Users\OWNER\source\repos\ConsoleApp9\ConsoleApp9\obj\Debug\netcoreapp3.1\ConsoleApp9.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\OWNER\source\repos\ConsoleApp9\ConsoleApp9\obj\Debug\netcoreapp3.1\ConsoleApp9.AssemblyInfoInputs.cache
+C:\Users\OWNER\source\repos\ConsoleApp9\ConsoleApp9\obj\Debug\netcoreapp3.1\ConsoleApp9.AssemblyInfo.cs
+C:\Users\OWNER\source\repos\ConsoleApp9\ConsoleApp9\obj\Debug\netcoreapp3.1\ConsoleApp9.csproj.CoreCompileInputs.cache
+C:\Users\OWNER\source\repos\ConsoleApp9\ConsoleApp9\bin\Debug\netcoreapp3.1\ConsoleApp9.exe
+C:\Users\OWNER\source\repos\ConsoleApp9\ConsoleApp9\bin\Debug\netcoreapp3.1\ConsoleApp9.deps.json
+C:\Users\OWNER\source\repos\ConsoleApp9\ConsoleApp9\bin\Debug\netcoreapp3.1\ConsoleApp9.runtimeconfig.json
+C:\Users\OWNER\source\repos\ConsoleApp9\ConsoleApp9\bin\Debug\netcoreapp3.1\ConsoleApp9.runtimeconfig.dev.json
+C:\Users\OWNER\source\repos\ConsoleApp9\ConsoleApp9\bin\Debug\netcoreapp3.1\ConsoleApp9.dll
+C:\Users\OWNER\source\repos\ConsoleApp9\ConsoleApp9\bin\Debug\netcoreapp3.1\ConsoleApp9.pdb
+C:\Users\OWNER\source\repos\ConsoleApp9\ConsoleApp9\obj\Debug\netcoreapp3.1\ConsoleApp9.dll
+C:\Users\OWNER\source\repos\ConsoleApp9\ConsoleApp9\obj\Debug\netcoreapp3.1\ConsoleApp9.pdb
+C:\Users\OWNER\source\repos\ConsoleApp9\ConsoleApp9\obj\Debug\netcoreapp3.1\ConsoleApp9.genruntimeconfig.cache

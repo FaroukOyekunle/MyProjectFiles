@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "QUESTION.TXT TWO/1.0.0": {
+        "runtime": {
+          "QUESTION.TXT TWO.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "QUESTION.TXT TWO/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

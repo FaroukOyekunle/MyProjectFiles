@@ -1,0 +1,14 @@
+C:\Users\OWNER\source\repos\Olaitan\bin\Debug\netcoreapp3.1\Olaitan.exe
+C:\Users\OWNER\source\repos\Olaitan\bin\Debug\netcoreapp3.1\Olaitan.deps.json
+C:\Users\OWNER\source\repos\Olaitan\bin\Debug\netcoreapp3.1\Olaitan.runtimeconfig.json
+C:\Users\OWNER\source\repos\Olaitan\bin\Debug\netcoreapp3.1\Olaitan.runtimeconfig.dev.json
+C:\Users\OWNER\source\repos\Olaitan\bin\Debug\netcoreapp3.1\Olaitan.dll
+C:\Users\OWNER\source\repos\Olaitan\bin\Debug\netcoreapp3.1\Olaitan.pdb
+C:\Users\OWNER\source\repos\Olaitan\obj\Debug\netcoreapp3.1\Olaitan.csproj.AssemblyReference.cache
+C:\Users\OWNER\source\repos\Olaitan\obj\Debug\netcoreapp3.1\Olaitan.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\OWNER\source\repos\Olaitan\obj\Debug\netcoreapp3.1\Olaitan.AssemblyInfoInputs.cache
+C:\Users\OWNER\source\repos\Olaitan\obj\Debug\netcoreapp3.1\Olaitan.AssemblyInfo.cs
+C:\Users\OWNER\source\repos\Olaitan\obj\Debug\netcoreapp3.1\Olaitan.csproj.CoreCompileInputs.cache
+C:\Users\OWNER\source\repos\Olaitan\obj\Debug\netcoreapp3.1\Olaitan.dll
+C:\Users\OWNER\source\repos\Olaitan\obj\Debug\netcoreapp3.1\Olaitan.pdb
+C:\Users\OWNER\source\repos\Olaitan\obj\Debug\netcoreapp3.1\Olaitan.genruntimeconfig.cache

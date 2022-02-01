@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v5.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v5.0": {
+      "CONSTRUCTOR  CLASSES FOR AN ANIMAL CLASS/1.0.0": {
+        "runtime": {
+          "CONSTRUCTOR  CLASSES FOR AN ANIMAL CLASS.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "CONSTRUCTOR  CLASSES FOR AN ANIMAL CLASS/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

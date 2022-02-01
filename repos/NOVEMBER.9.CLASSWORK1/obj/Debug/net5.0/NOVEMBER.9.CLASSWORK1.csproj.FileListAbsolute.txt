@@ -1,0 +1,16 @@
+C:\Users\OWNER\source\repos\NOVEMBER.9.CLASSWORK1\bin\Debug\net5.0\NOVEMBER.9.CLASSWORK1.exe
+C:\Users\OWNER\source\repos\NOVEMBER.9.CLASSWORK1\bin\Debug\net5.0\NOVEMBER.9.CLASSWORK1.deps.json
+C:\Users\OWNER\source\repos\NOVEMBER.9.CLASSWORK1\bin\Debug\net5.0\NOVEMBER.9.CLASSWORK1.runtimeconfig.json
+C:\Users\OWNER\source\repos\NOVEMBER.9.CLASSWORK1\bin\Debug\net5.0\NOVEMBER.9.CLASSWORK1.runtimeconfig.dev.json
+C:\Users\OWNER\source\repos\NOVEMBER.9.CLASSWORK1\bin\Debug\net5.0\NOVEMBER.9.CLASSWORK1.dll
+C:\Users\OWNER\source\repos\NOVEMBER.9.CLASSWORK1\bin\Debug\net5.0\ref\NOVEMBER.9.CLASSWORK1.dll
+C:\Users\OWNER\source\repos\NOVEMBER.9.CLASSWORK1\bin\Debug\net5.0\NOVEMBER.9.CLASSWORK1.pdb
+C:\Users\OWNER\source\repos\NOVEMBER.9.CLASSWORK1\obj\Debug\net5.0\NOVEMBER.9.CLASSWORK1.csproj.AssemblyReference.cache
+C:\Users\OWNER\source\repos\NOVEMBER.9.CLASSWORK1\obj\Debug\net5.0\NOVEMBER.9.CLASSWORK1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\OWNER\source\repos\NOVEMBER.9.CLASSWORK1\obj\Debug\net5.0\NOVEMBER.9.CLASSWORK1.AssemblyInfoInputs.cache
+C:\Users\OWNER\source\repos\NOVEMBER.9.CLASSWORK1\obj\Debug\net5.0\NOVEMBER.9.CLASSWORK1.AssemblyInfo.cs
+C:\Users\OWNER\source\repos\NOVEMBER.9.CLASSWORK1\obj\Debug\net5.0\NOVEMBER.9.CLASSWORK1.csproj.CoreCompileInputs.cache
+C:\Users\OWNER\source\repos\NOVEMBER.9.CLASSWORK1\obj\Debug\net5.0\NOVEMBER.9.CLASSWORK1.dll
+C:\Users\OWNER\source\repos\NOVEMBER.9.CLASSWORK1\obj\Debug\net5.0\ref\NOVEMBER.9.CLASSWORK1.dll
+C:\Users\OWNER\source\repos\NOVEMBER.9.CLASSWORK1\obj\Debug\net5.0\NOVEMBER.9.CLASSWORK1.pdb
+C:\Users\OWNER\source\repos\NOVEMBER.9.CLASSWORK1\obj\Debug\net5.0\NOVEMBER.9.CLASSWORK1.genruntimeconfig.cache

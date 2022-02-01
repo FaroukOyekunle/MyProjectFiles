@@ -1,0 +1,16 @@
+C:\Users\OWNER\source\repos\QUESTION.TXT TWO\TestStatement\bin\Debug\net5.0\TestStatement.exe
+C:\Users\OWNER\source\repos\QUESTION.TXT TWO\TestStatement\bin\Debug\net5.0\TestStatement.deps.json
+C:\Users\OWNER\source\repos\QUESTION.TXT TWO\TestStatement\bin\Debug\net5.0\TestStatement.runtimeconfig.json
+C:\Users\OWNER\source\repos\QUESTION.TXT TWO\TestStatement\bin\Debug\net5.0\TestStatement.runtimeconfig.dev.json
+C:\Users\OWNER\source\repos\QUESTION.TXT TWO\TestStatement\bin\Debug\net5.0\TestStatement.dll
+C:\Users\OWNER\source\repos\QUESTION.TXT TWO\TestStatement\bin\Debug\net5.0\ref\TestStatement.dll
+C:\Users\OWNER\source\repos\QUESTION.TXT TWO\TestStatement\bin\Debug\net5.0\TestStatement.pdb
+C:\Users\OWNER\source\repos\QUESTION.TXT TWO\TestStatement\obj\Debug\net5.0\TestStatement.csproj.AssemblyReference.cache
+C:\Users\OWNER\source\repos\QUESTION.TXT TWO\TestStatement\obj\Debug\net5.0\TestStatement.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\OWNER\source\repos\QUESTION.TXT TWO\TestStatement\obj\Debug\net5.0\TestStatement.AssemblyInfoInputs.cache
+C:\Users\OWNER\source\repos\QUESTION.TXT TWO\TestStatement\obj\Debug\net5.0\TestStatement.AssemblyInfo.cs
+C:\Users\OWNER\source\repos\QUESTION.TXT TWO\TestStatement\obj\Debug\net5.0\TestStatement.csproj.CoreCompileInputs.cache
+C:\Users\OWNER\source\repos\QUESTION.TXT TWO\TestStatement\obj\Debug\net5.0\TestStatement.dll
+C:\Users\OWNER\source\repos\QUESTION.TXT TWO\TestStatement\obj\Debug\net5.0\ref\TestStatement.dll
+C:\Users\OWNER\source\repos\QUESTION.TXT TWO\TestStatement\obj\Debug\net5.0\TestStatement.pdb
+C:\Users\OWNER\source\repos\QUESTION.TXT TWO\TestStatement\obj\Debug\net5.0\TestStatement.genruntimeconfig.cache

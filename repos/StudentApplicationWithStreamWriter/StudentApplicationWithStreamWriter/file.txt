@@ -1,0 +1,12 @@
+Oykunle	Farouk Gbolahan	Oyekunlefarouk2001@gmail.com	07042126740	22	male	1/OF/1262021	12/6/2021 1:42:14 PM
+Owoade	Fuad Ayinde	Owoadefuad1999@gmail.com	08087702961	22	male	2/OF/1262021	12/6/2021 1:43:24 PM
+Adam	Kabirah Opeyemi	Adamkabirah6066@gmail.com	09066063487	22	female	3/AK/1262021	12/6/2021 1:44:28 PM
+Odeyale	Zainab Damilola	Odeyalezainab1889@gmail.com	09194701411	21	female	4/OZ/1262021	12/6/2021 1:45:53 PM
+Olagunju	Damilola Abidemi	Olagunjudamilola1867@gmail.com	09076373689	20	female	5/OD/1262021	12/6/2021 1:48:06 PM
+Majekodunmi	Temiloluwa Arike	Majekodunmitemiloluwa4567@gmail.com	08157352309	22	female	6/MT/1262021	12/6/2021 1:49:54 PM
+Lawal	Mustapha Kolapo	Lawalkolapo56@gmail.com	09134873109	23	male	7/LM/1262021	12/6/2021 1:51:05 PM
+Adeyemi	Shullamite Taiwo	BeautyByDara06@gmail.com	07099714790	23	female	8/AS/1262021	12/6/2021 1:53:17 PM
+Nwaolu	Chukwuemeka Omanrukpa	Nwaoluomanrukpa999@gmail.com	08123568789	24	male	9/NC/1262021	12/6/2021 1:54:44 PM
+Lawal	Shukrah	Lawalopeyemi23@gmail.com	09123657865	19	female	10/LS/12 7 2021	12/7/2021 11:31:02 PM
+Lawal 	AbdulRasheed	LabdulRasheed234@gmail.com	09087654321	21	male	11/LA/12 7 2021	12/7/2021 11:33:00 PM
+qwerty	keyboard	qwertykeyboard234@gmail.com	09123657897	27	female	12/QK/12 7 2021	12/7/2021 11:44:42 PM

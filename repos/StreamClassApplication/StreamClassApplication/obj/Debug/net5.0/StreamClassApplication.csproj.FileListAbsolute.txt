@@ -1,0 +1,16 @@
+C:\Users\OWNER\source\repos\StreamClassApplication\StreamClassApplication\bin\Debug\net5.0\StreamClassApplication.exe
+C:\Users\OWNER\source\repos\StreamClassApplication\StreamClassApplication\bin\Debug\net5.0\StreamClassApplication.deps.json
+C:\Users\OWNER\source\repos\StreamClassApplication\StreamClassApplication\bin\Debug\net5.0\StreamClassApplication.runtimeconfig.json
+C:\Users\OWNER\source\repos\StreamClassApplication\StreamClassApplication\bin\Debug\net5.0\StreamClassApplication.runtimeconfig.dev.json
+C:\Users\OWNER\source\repos\StreamClassApplication\StreamClassApplication\bin\Debug\net5.0\StreamClassApplication.dll
+C:\Users\OWNER\source\repos\StreamClassApplication\StreamClassApplication\bin\Debug\net5.0\ref\StreamClassApplication.dll
+C:\Users\OWNER\source\repos\StreamClassApplication\StreamClassApplication\bin\Debug\net5.0\StreamClassApplication.pdb
+C:\Users\OWNER\source\repos\StreamClassApplication\StreamClassApplication\obj\Debug\net5.0\StreamClassApplication.csproj.AssemblyReference.cache
+C:\Users\OWNER\source\repos\StreamClassApplication\StreamClassApplication\obj\Debug\net5.0\StreamClassApplication.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\OWNER\source\repos\StreamClassApplication\StreamClassApplication\obj\Debug\net5.0\StreamClassApplication.AssemblyInfoInputs.cache
+C:\Users\OWNER\source\repos\StreamClassApplication\StreamClassApplication\obj\Debug\net5.0\StreamClassApplication.AssemblyInfo.cs
+C:\Users\OWNER\source\repos\StreamClassApplication\StreamClassApplication\obj\Debug\net5.0\StreamClassApplication.csproj.CoreCompileInputs.cache
+C:\Users\OWNER\source\repos\StreamClassApplication\StreamClassApplication\obj\Debug\net5.0\StreamClassApplication.dll
+C:\Users\OWNER\source\repos\StreamClassApplication\StreamClassApplication\obj\Debug\net5.0\ref\StreamClassApplication.dll
+C:\Users\OWNER\source\repos\StreamClassApplication\StreamClassApplication\obj\Debug\net5.0\StreamClassApplication.pdb
+C:\Users\OWNER\source\repos\StreamClassApplication\StreamClassApplication\obj\Debug\net5.0\StreamClassApplication.genruntimeconfig.cache

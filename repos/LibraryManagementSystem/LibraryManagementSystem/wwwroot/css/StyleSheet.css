@@ -1,0 +1,214 @@
+﻿/* Google fonts Import link */
+@import url(https://fonts.googleapis.com/css2?family=poppins:wght@300;);
+
+     *    {
+       margin: 0;
+       padding: 0;
+       box-sizing: border-box;
+       font-family: 'Poppins', sans-serif;
+     }
+
+        .sidebar {
+           position: fixed;
+           top: 0;
+           left: 0;
+           height: 100%;
+           width: 260px;
+           background: #11101d;
+        }
+
+        .sidebar.logo-details {
+           height: 60px;
+           width: 100%;
+           display: flex;
+           align-items: center;
+        }
+
+        .sidebar .logo-details i {
+            font-size: 30px;
+            color: #fff;
+            height: 50px;
+            min-width: 78px;
+            text-align: center;
+            line-height: 50px;
+        }
+        .sidebar .logo-details .logo_name{
+            font-size: 22px;
+            color:#fff;
+            font-weight: 600;
+        }
+        .sidebar .nav-links{
+            height: 100%;
+            padding-top: 30px;
+        }
+        .sidebar .nav-links li{
+            position: relative;
+            list-style: none;
+            transition: all 0.4s ease;
+        }
+        .sidebar .nav-links li:hover{
+            background:#1d1b31;
+        }
+        .sidebar .nav-links li .icon-link{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+        .sidebar .nav-links li i{
+            height: 50px;
+            min-width: 78px;
+            text-align: center;
+            line-height: 50px;
+            color: #fff;
+        }
+        .sidebar .nav-links li a {
+                display: flex;
+                align-items:center;
+                text-decoration: none;
+        }
+        .sidebar .nav-links li a .link_name{
+            font-size: 18px;
+            font-weight: 400;
+            color: #fff;
+        }
+        .sidebar .nav-links li .sub-menu{
+            padding: 6px 6px 14px 80px;
+            margin-top: -10px;
+            background: #1d1b31;
+            display: none;
+        }
+        .sidebar .nav-links li .sub-menu a{
+            color:#fff;
+            font-size:1px;
+            padding: 5px 0;
+            white-space: nowrap;
+            opacity: 0.6;
+            transition: all 0.3s ease;
+        }
+        .sidebar .nav-links li .sub-menu a:hover{
+                opacity: 1;
+        }
+        .sidebar.close .nav-links li .sub-menu {
+                position: absolute;
+                left: 100%;
+                top: -10px;
+                margin-top: 0;
+                padding: 10px 20px;
+                border-radius: 0 6px 6px 0;
+                transition: all 0.4s ease;
+                opacity: 0;
+                pointer-events: none;
+        }
+            .sidebar.close .nav-links li:hover .sub-menu {
+                top: 0;
+                opacity: 0;
+                pointer-events: auto;
+            }
+        .sidebar .nav-links li .sub-menu.link_name {
+                display: none;
+        }
+        .sidebar.close .nav-links li .sub-menu.link_name {
+            font-size: 18px;
+            opacity: 1;
+            display: block;
+        }
+            .sidebar.close .nav-links li .sub-menu.blank {
+                opacity: 1;
+                pointer-events: auto;
+                padding: 3px 20px 6px 16px;
+            }
+            .sidebar.close .nav-links li:hover .sub-menu.blank{
+                top: 50%;
+                transform: translateY(-50%);
+            }
+            .sidebar .profile-details{
+                position: fixed;
+                bottom: 0;
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+            }
+            .sidebar .profile-details img {
+                height: 52px;
+                width: 52px;
+                object-fit: cover;
+                border-radius: 16px;
+                margin: 0 14px 0 12px;
+                background: #1d1b31;
+                padding: 10px;
+            }
+                .sidebar .profile-details .profile-name,
+                .sidebar .profile-details .job{
+                    color: #fff;
+                    font-size: 18px;
+                    font-weight: 500;
+                }
+                .sidebar .profile-details .job{
+                    font-size: 12px;
+                }
+/* The navigation menu */
+/*.navbar {
+    overflow: hidden;
+    background-color: #333;
+}*/
+
+    /* Navigation links */
+    /*.navbar a {
+        float: left;
+        font-size: 16px;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+    }*/
+
+/* The subnavigation menu */
+/*.subnav {
+    float: left;
+    overflow: hidden;
+}*/
+
+    /* Subnav button */
+    /*.subnav .subnavbtn {
+        font-size: 16px;
+        border: none;
+        outline: none;
+        color: white;
+        padding: 14px 16px;
+        background-color: inherit;
+        font-family: inherit;
+        margin: 0;
+    }*/
+
+    /* Add a red background color to navigation links on hover */
+    /*.navbar a:hover, .subnav:hover .subnavbtn {
+        background-color: red;
+    }*/
+
+/* Style the subnav content - positioned absolute */
+/*.subnav-content {
+    display: none;
+    position: absolute;
+    left: 0;
+    background-color: red;
+    width: 100%;
+    z-index: 1;
+}*/
+
+    /* Style the subnav links */
+    /*.subnav-content a {
+        float: left;
+        color: white;
+        text-decoration: none;
+    }*/
+
+        /* Add a grey background color on hover */
+        /*.subnav-content a:hover {
+            background-color: #eee;
+            color: black;
+        }*/
+
+/* When you move the mouse over the subnav container, open the subnav content */
+/*.subnav:hover .subnav-content {
+    display: block;
+}*/

@@ -1,0 +1,16 @@
+C:\Users\OWNER\source\repos\OyekunleFaroukCodeChallengeDec17\OyekunleFaroukCodeChallengeDec17\bin\Debug\net5.0\OyekunleFaroukCodeChallengeDec17.exe
+C:\Users\OWNER\source\repos\OyekunleFaroukCodeChallengeDec17\OyekunleFaroukCodeChallengeDec17\bin\Debug\net5.0\OyekunleFaroukCodeChallengeDec17.deps.json
+C:\Users\OWNER\source\repos\OyekunleFaroukCodeChallengeDec17\OyekunleFaroukCodeChallengeDec17\bin\Debug\net5.0\OyekunleFaroukCodeChallengeDec17.runtimeconfig.json
+C:\Users\OWNER\source\repos\OyekunleFaroukCodeChallengeDec17\OyekunleFaroukCodeChallengeDec17\bin\Debug\net5.0\OyekunleFaroukCodeChallengeDec17.runtimeconfig.dev.json
+C:\Users\OWNER\source\repos\OyekunleFaroukCodeChallengeDec17\OyekunleFaroukCodeChallengeDec17\bin\Debug\net5.0\OyekunleFaroukCodeChallengeDec17.dll
+C:\Users\OWNER\source\repos\OyekunleFaroukCodeChallengeDec17\OyekunleFaroukCodeChallengeDec17\bin\Debug\net5.0\ref\OyekunleFaroukCodeChallengeDec17.dll
+C:\Users\OWNER\source\repos\OyekunleFaroukCodeChallengeDec17\OyekunleFaroukCodeChallengeDec17\bin\Debug\net5.0\OyekunleFaroukCodeChallengeDec17.pdb
+C:\Users\OWNER\source\repos\OyekunleFaroukCodeChallengeDec17\OyekunleFaroukCodeChallengeDec17\obj\Debug\net5.0\OyekunleFaroukCodeChallengeDec17.csproj.AssemblyReference.cache
+C:\Users\OWNER\source\repos\OyekunleFaroukCodeChallengeDec17\OyekunleFaroukCodeChallengeDec17\obj\Debug\net5.0\OyekunleFaroukCodeChallengeDec17.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\OWNER\source\repos\OyekunleFaroukCodeChallengeDec17\OyekunleFaroukCodeChallengeDec17\obj\Debug\net5.0\OyekunleFaroukCodeChallengeDec17.AssemblyInfoInputs.cache
+C:\Users\OWNER\source\repos\OyekunleFaroukCodeChallengeDec17\OyekunleFaroukCodeChallengeDec17\obj\Debug\net5.0\OyekunleFaroukCodeChallengeDec17.AssemblyInfo.cs
+C:\Users\OWNER\source\repos\OyekunleFaroukCodeChallengeDec17\OyekunleFaroukCodeChallengeDec17\obj\Debug\net5.0\OyekunleFaroukCodeChallengeDec17.csproj.CoreCompileInputs.cache
+C:\Users\OWNER\source\repos\OyekunleFaroukCodeChallengeDec17\OyekunleFaroukCodeChallengeDec17\obj\Debug\net5.0\OyekunleFaroukCodeChallengeDec17.dll
+C:\Users\OWNER\source\repos\OyekunleFaroukCodeChallengeDec17\OyekunleFaroukCodeChallengeDec17\obj\Debug\net5.0\ref\OyekunleFaroukCodeChallengeDec17.dll
+C:\Users\OWNER\source\repos\OyekunleFaroukCodeChallengeDec17\OyekunleFaroukCodeChallengeDec17\obj\Debug\net5.0\OyekunleFaroukCodeChallengeDec17.pdb
+C:\Users\OWNER\source\repos\OyekunleFaroukCodeChallengeDec17\OyekunleFaroukCodeChallengeDec17\obj\Debug\net5.0\OyekunleFaroukCodeChallengeDec17.genruntimeconfig.cache

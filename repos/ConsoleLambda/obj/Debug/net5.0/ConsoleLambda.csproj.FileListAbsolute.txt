@@ -1,0 +1,5 @@
+C:\Users\OWNER\source\repos\ConsoleLambda\obj\Debug\net5.0\ConsoleLambda.csproj.AssemblyReference.cache
+C:\Users\OWNER\source\repos\ConsoleLambda\obj\Debug\net5.0\ConsoleLambda.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\OWNER\source\repos\ConsoleLambda\obj\Debug\net5.0\ConsoleLambda.AssemblyInfoInputs.cache
+C:\Users\OWNER\source\repos\ConsoleLambda\obj\Debug\net5.0\ConsoleLambda.AssemblyInfo.cs
+C:\Users\OWNER\source\repos\ConsoleLambda\obj\Debug\net5.0\ConsoleLambda.csproj.CoreCompileInputs.cache

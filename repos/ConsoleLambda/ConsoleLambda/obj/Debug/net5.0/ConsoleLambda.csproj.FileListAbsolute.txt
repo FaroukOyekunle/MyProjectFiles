@@ -1,0 +1,15 @@
+C:\Users\OWNER\source\repos\ConsoleLambda\ConsoleLambda\bin\Debug\net5.0\ConsoleLambda.exe
+C:\Users\OWNER\source\repos\ConsoleLambda\ConsoleLambda\bin\Debug\net5.0\ConsoleLambda.deps.json
+C:\Users\OWNER\source\repos\ConsoleLambda\ConsoleLambda\bin\Debug\net5.0\ConsoleLambda.runtimeconfig.json
+C:\Users\OWNER\source\repos\ConsoleLambda\ConsoleLambda\bin\Debug\net5.0\ConsoleLambda.runtimeconfig.dev.json
+C:\Users\OWNER\source\repos\ConsoleLambda\ConsoleLambda\bin\Debug\net5.0\ConsoleLambda.dll
+C:\Users\OWNER\source\repos\ConsoleLambda\ConsoleLambda\bin\Debug\net5.0\ref\ConsoleLambda.dll
+C:\Users\OWNER\source\repos\ConsoleLambda\ConsoleLambda\bin\Debug\net5.0\ConsoleLambda.pdb
+C:\Users\OWNER\source\repos\ConsoleLambda\ConsoleLambda\obj\Debug\net5.0\ConsoleLambda.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\OWNER\source\repos\ConsoleLambda\ConsoleLambda\obj\Debug\net5.0\ConsoleLambda.AssemblyInfoInputs.cache
+C:\Users\OWNER\source\repos\ConsoleLambda\ConsoleLambda\obj\Debug\net5.0\ConsoleLambda.AssemblyInfo.cs
+C:\Users\OWNER\source\repos\ConsoleLambda\ConsoleLambda\obj\Debug\net5.0\ConsoleLambda.csproj.CoreCompileInputs.cache
+C:\Users\OWNER\source\repos\ConsoleLambda\ConsoleLambda\obj\Debug\net5.0\ConsoleLambda.dll
+C:\Users\OWNER\source\repos\ConsoleLambda\ConsoleLambda\obj\Debug\net5.0\ref\ConsoleLambda.dll
+C:\Users\OWNER\source\repos\ConsoleLambda\ConsoleLambda\obj\Debug\net5.0\ConsoleLambda.pdb
+C:\Users\OWNER\source\repos\ConsoleLambda\ConsoleLambda\obj\Debug\net5.0\ConsoleLambda.genruntimeconfig.cache

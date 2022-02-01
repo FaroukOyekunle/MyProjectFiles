@@ -1,0 +1,14 @@
+C:\Users\OWNER\source\repos\Olayemi\obj\Debug\netcoreapp3.1\Olayemi.csproj.AssemblyReference.cache
+C:\Users\OWNER\source\repos\Olayemi\obj\Debug\netcoreapp3.1\Olayemi.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\OWNER\source\repos\Olayemi\obj\Debug\netcoreapp3.1\Olayemi.AssemblyInfoInputs.cache
+C:\Users\OWNER\source\repos\Olayemi\obj\Debug\netcoreapp3.1\Olayemi.AssemblyInfo.cs
+C:\Users\OWNER\source\repos\Olayemi\obj\Debug\netcoreapp3.1\Olayemi.csproj.CoreCompileInputs.cache
+C:\Users\OWNER\source\repos\Olayemi\bin\Debug\netcoreapp3.1\Olayemi.exe
+C:\Users\OWNER\source\repos\Olayemi\bin\Debug\netcoreapp3.1\Olayemi.deps.json
+C:\Users\OWNER\source\repos\Olayemi\bin\Debug\netcoreapp3.1\Olayemi.runtimeconfig.json
+C:\Users\OWNER\source\repos\Olayemi\bin\Debug\netcoreapp3.1\Olayemi.runtimeconfig.dev.json
+C:\Users\OWNER\source\repos\Olayemi\bin\Debug\netcoreapp3.1\Olayemi.dll
+C:\Users\OWNER\source\repos\Olayemi\bin\Debug\netcoreapp3.1\Olayemi.pdb
+C:\Users\OWNER\source\repos\Olayemi\obj\Debug\netcoreapp3.1\Olayemi.dll
+C:\Users\OWNER\source\repos\Olayemi\obj\Debug\netcoreapp3.1\Olayemi.pdb
+C:\Users\OWNER\source\repos\Olayemi\obj\Debug\netcoreapp3.1\Olayemi.genruntimeconfig.cache

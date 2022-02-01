@@ -1,0 +1,16 @@
+C:\Users\OWNER\source\repos\SpiralArray\SpiralArray\bin\Debug\net5.0\SpiralArray.exe
+C:\Users\OWNER\source\repos\SpiralArray\SpiralArray\bin\Debug\net5.0\SpiralArray.deps.json
+C:\Users\OWNER\source\repos\SpiralArray\SpiralArray\bin\Debug\net5.0\SpiralArray.runtimeconfig.json
+C:\Users\OWNER\source\repos\SpiralArray\SpiralArray\bin\Debug\net5.0\SpiralArray.runtimeconfig.dev.json
+C:\Users\OWNER\source\repos\SpiralArray\SpiralArray\bin\Debug\net5.0\SpiralArray.dll
+C:\Users\OWNER\source\repos\SpiralArray\SpiralArray\bin\Debug\net5.0\ref\SpiralArray.dll
+C:\Users\OWNER\source\repos\SpiralArray\SpiralArray\bin\Debug\net5.0\SpiralArray.pdb
+C:\Users\OWNER\source\repos\SpiralArray\SpiralArray\obj\Debug\net5.0\SpiralArray.csproj.AssemblyReference.cache
+C:\Users\OWNER\source\repos\SpiralArray\SpiralArray\obj\Debug\net5.0\SpiralArray.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\OWNER\source\repos\SpiralArray\SpiralArray\obj\Debug\net5.0\SpiralArray.AssemblyInfoInputs.cache
+C:\Users\OWNER\source\repos\SpiralArray\SpiralArray\obj\Debug\net5.0\SpiralArray.AssemblyInfo.cs
+C:\Users\OWNER\source\repos\SpiralArray\SpiralArray\obj\Debug\net5.0\SpiralArray.csproj.CoreCompileInputs.cache
+C:\Users\OWNER\source\repos\SpiralArray\SpiralArray\obj\Debug\net5.0\SpiralArray.dll
+C:\Users\OWNER\source\repos\SpiralArray\SpiralArray\obj\Debug\net5.0\ref\SpiralArray.dll
+C:\Users\OWNER\source\repos\SpiralArray\SpiralArray\obj\Debug\net5.0\SpiralArray.pdb
+C:\Users\OWNER\source\repos\SpiralArray\SpiralArray\obj\Debug\net5.0\SpiralArray.genruntimeconfig.cache

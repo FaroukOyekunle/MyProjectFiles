@@ -1,0 +1,14 @@
+C:\Users\OWNER\source\repos\ConsoleApp5\ConsoleApp5\bin\Debug\netcoreapp3.1\ConsoleApp5.exe
+C:\Users\OWNER\source\repos\ConsoleApp5\ConsoleApp5\bin\Debug\netcoreapp3.1\ConsoleApp5.deps.json
+C:\Users\OWNER\source\repos\ConsoleApp5\ConsoleApp5\bin\Debug\netcoreapp3.1\ConsoleApp5.runtimeconfig.json
+C:\Users\OWNER\source\repos\ConsoleApp5\ConsoleApp5\bin\Debug\netcoreapp3.1\ConsoleApp5.runtimeconfig.dev.json
+C:\Users\OWNER\source\repos\ConsoleApp5\ConsoleApp5\bin\Debug\netcoreapp3.1\ConsoleApp5.dll
+C:\Users\OWNER\source\repos\ConsoleApp5\ConsoleApp5\bin\Debug\netcoreapp3.1\ConsoleApp5.pdb
+C:\Users\OWNER\source\repos\ConsoleApp5\ConsoleApp5\obj\Debug\netcoreapp3.1\ConsoleApp5.csproj.AssemblyReference.cache
+C:\Users\OWNER\source\repos\ConsoleApp5\ConsoleApp5\obj\Debug\netcoreapp3.1\ConsoleApp5.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\OWNER\source\repos\ConsoleApp5\ConsoleApp5\obj\Debug\netcoreapp3.1\ConsoleApp5.AssemblyInfoInputs.cache
+C:\Users\OWNER\source\repos\ConsoleApp5\ConsoleApp5\obj\Debug\netcoreapp3.1\ConsoleApp5.AssemblyInfo.cs
+C:\Users\OWNER\source\repos\ConsoleApp5\ConsoleApp5\obj\Debug\netcoreapp3.1\ConsoleApp5.csproj.CoreCompileInputs.cache
+C:\Users\OWNER\source\repos\ConsoleApp5\ConsoleApp5\obj\Debug\netcoreapp3.1\ConsoleApp5.dll
+C:\Users\OWNER\source\repos\ConsoleApp5\ConsoleApp5\obj\Debug\netcoreapp3.1\ConsoleApp5.pdb
+C:\Users\OWNER\source\repos\ConsoleApp5\ConsoleApp5\obj\Debug\netcoreapp3.1\ConsoleApp5.genruntimeconfig.cache

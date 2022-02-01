@@ -1,0 +1,14 @@
+C:\Users\OWNER\source\repos\CopyConsoleApplication6\CopyConsoleApplication6\bin\Debug\netcoreapp3.1\CopyConsoleApplication6.exe
+C:\Users\OWNER\source\repos\CopyConsoleApplication6\CopyConsoleApplication6\bin\Debug\netcoreapp3.1\CopyConsoleApplication6.deps.json
+C:\Users\OWNER\source\repos\CopyConsoleApplication6\CopyConsoleApplication6\bin\Debug\netcoreapp3.1\CopyConsoleApplication6.runtimeconfig.json
+C:\Users\OWNER\source\repos\CopyConsoleApplication6\CopyConsoleApplication6\bin\Debug\netcoreapp3.1\CopyConsoleApplication6.runtimeconfig.dev.json
+C:\Users\OWNER\source\repos\CopyConsoleApplication6\CopyConsoleApplication6\bin\Debug\netcoreapp3.1\CopyConsoleApplication6.dll
+C:\Users\OWNER\source\repos\CopyConsoleApplication6\CopyConsoleApplication6\bin\Debug\netcoreapp3.1\CopyConsoleApplication6.pdb
+C:\Users\OWNER\source\repos\CopyConsoleApplication6\CopyConsoleApplication6\obj\Debug\netcoreapp3.1\CopyConsoleApplication6.csproj.AssemblyReference.cache
+C:\Users\OWNER\source\repos\CopyConsoleApplication6\CopyConsoleApplication6\obj\Debug\netcoreapp3.1\CopyConsoleApplication6.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\OWNER\source\repos\CopyConsoleApplication6\CopyConsoleApplication6\obj\Debug\netcoreapp3.1\CopyConsoleApplication6.AssemblyInfoInputs.cache
+C:\Users\OWNER\source\repos\CopyConsoleApplication6\CopyConsoleApplication6\obj\Debug\netcoreapp3.1\CopyConsoleApplication6.AssemblyInfo.cs
+C:\Users\OWNER\source\repos\CopyConsoleApplication6\CopyConsoleApplication6\obj\Debug\netcoreapp3.1\CopyConsoleApplication6.csproj.CoreCompileInputs.cache
+C:\Users\OWNER\source\repos\CopyConsoleApplication6\CopyConsoleApplication6\obj\Debug\netcoreapp3.1\CopyConsoleApplication6.dll
+C:\Users\OWNER\source\repos\CopyConsoleApplication6\CopyConsoleApplication6\obj\Debug\netcoreapp3.1\CopyConsoleApplication6.pdb
+C:\Users\OWNER\source\repos\CopyConsoleApplication6\CopyConsoleApplication6\obj\Debug\netcoreapp3.1\CopyConsoleApplication6.genruntimeconfig.cache

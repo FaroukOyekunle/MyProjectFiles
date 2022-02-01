@@ -1,0 +1,16 @@
+C:\Users\OWNER\source\repos\StreamClass\StreamClass\bin\Debug\net5.0\StreamClass.exe
+C:\Users\OWNER\source\repos\StreamClass\StreamClass\bin\Debug\net5.0\StreamClass.deps.json
+C:\Users\OWNER\source\repos\StreamClass\StreamClass\bin\Debug\net5.0\StreamClass.runtimeconfig.json
+C:\Users\OWNER\source\repos\StreamClass\StreamClass\bin\Debug\net5.0\StreamClass.runtimeconfig.dev.json
+C:\Users\OWNER\source\repos\StreamClass\StreamClass\bin\Debug\net5.0\StreamClass.dll
+C:\Users\OWNER\source\repos\StreamClass\StreamClass\bin\Debug\net5.0\ref\StreamClass.dll
+C:\Users\OWNER\source\repos\StreamClass\StreamClass\bin\Debug\net5.0\StreamClass.pdb
+C:\Users\OWNER\source\repos\StreamClass\StreamClass\obj\Debug\net5.0\StreamClass.csproj.AssemblyReference.cache
+C:\Users\OWNER\source\repos\StreamClass\StreamClass\obj\Debug\net5.0\StreamClass.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\OWNER\source\repos\StreamClass\StreamClass\obj\Debug\net5.0\StreamClass.AssemblyInfoInputs.cache
+C:\Users\OWNER\source\repos\StreamClass\StreamClass\obj\Debug\net5.0\StreamClass.AssemblyInfo.cs
+C:\Users\OWNER\source\repos\StreamClass\StreamClass\obj\Debug\net5.0\StreamClass.csproj.CoreCompileInputs.cache
+C:\Users\OWNER\source\repos\StreamClass\StreamClass\obj\Debug\net5.0\StreamClass.dll
+C:\Users\OWNER\source\repos\StreamClass\StreamClass\obj\Debug\net5.0\ref\StreamClass.dll
+C:\Users\OWNER\source\repos\StreamClass\StreamClass\obj\Debug\net5.0\StreamClass.pdb
+C:\Users\OWNER\source\repos\StreamClass\StreamClass\obj\Debug\net5.0\StreamClass.genruntimeconfig.cache

@@ -1,0 +1,16 @@
+C:\Users\OWNER\source\repos\OOPCLASS\OOPCLASS\bin\Debug\net5.0\OOPCLASS.exe
+C:\Users\OWNER\source\repos\OOPCLASS\OOPCLASS\bin\Debug\net5.0\OOPCLASS.deps.json
+C:\Users\OWNER\source\repos\OOPCLASS\OOPCLASS\bin\Debug\net5.0\OOPCLASS.runtimeconfig.json
+C:\Users\OWNER\source\repos\OOPCLASS\OOPCLASS\bin\Debug\net5.0\OOPCLASS.runtimeconfig.dev.json
+C:\Users\OWNER\source\repos\OOPCLASS\OOPCLASS\bin\Debug\net5.0\OOPCLASS.dll
+C:\Users\OWNER\source\repos\OOPCLASS\OOPCLASS\bin\Debug\net5.0\ref\OOPCLASS.dll
+C:\Users\OWNER\source\repos\OOPCLASS\OOPCLASS\bin\Debug\net5.0\OOPCLASS.pdb
+C:\Users\OWNER\source\repos\OOPCLASS\OOPCLASS\obj\Debug\net5.0\OOPCLASS.csproj.AssemblyReference.cache
+C:\Users\OWNER\source\repos\OOPCLASS\OOPCLASS\obj\Debug\net5.0\OOPCLASS.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\OWNER\source\repos\OOPCLASS\OOPCLASS\obj\Debug\net5.0\OOPCLASS.AssemblyInfoInputs.cache
+C:\Users\OWNER\source\repos\OOPCLASS\OOPCLASS\obj\Debug\net5.0\OOPCLASS.AssemblyInfo.cs
+C:\Users\OWNER\source\repos\OOPCLASS\OOPCLASS\obj\Debug\net5.0\OOPCLASS.csproj.CoreCompileInputs.cache
+C:\Users\OWNER\source\repos\OOPCLASS\OOPCLASS\obj\Debug\net5.0\OOPCLASS.dll
+C:\Users\OWNER\source\repos\OOPCLASS\OOPCLASS\obj\Debug\net5.0\ref\OOPCLASS.dll
+C:\Users\OWNER\source\repos\OOPCLASS\OOPCLASS\obj\Debug\net5.0\OOPCLASS.pdb
+C:\Users\OWNER\source\repos\OOPCLASS\OOPCLASS\obj\Debug\net5.0\OOPCLASS.genruntimeconfig.cache

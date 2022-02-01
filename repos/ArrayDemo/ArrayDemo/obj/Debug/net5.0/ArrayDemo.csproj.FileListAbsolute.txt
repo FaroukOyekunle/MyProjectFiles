@@ -1,0 +1,16 @@
+C:\Users\OWNER\source\repos\ArrayDemo\ArrayDemo\obj\Debug\net5.0\ArrayDemo.csproj.AssemblyReference.cache
+C:\Users\OWNER\source\repos\ArrayDemo\ArrayDemo\obj\Debug\net5.0\ArrayDemo.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\OWNER\source\repos\ArrayDemo\ArrayDemo\obj\Debug\net5.0\ArrayDemo.AssemblyInfoInputs.cache
+C:\Users\OWNER\source\repos\ArrayDemo\ArrayDemo\obj\Debug\net5.0\ArrayDemo.AssemblyInfo.cs
+C:\Users\OWNER\source\repos\ArrayDemo\ArrayDemo\obj\Debug\net5.0\ArrayDemo.csproj.CoreCompileInputs.cache
+C:\Users\OWNER\source\repos\ArrayDemo\ArrayDemo\bin\Debug\net5.0\ArrayDemo.exe
+C:\Users\OWNER\source\repos\ArrayDemo\ArrayDemo\bin\Debug\net5.0\ArrayDemo.deps.json
+C:\Users\OWNER\source\repos\ArrayDemo\ArrayDemo\bin\Debug\net5.0\ArrayDemo.runtimeconfig.json
+C:\Users\OWNER\source\repos\ArrayDemo\ArrayDemo\bin\Debug\net5.0\ArrayDemo.runtimeconfig.dev.json
+C:\Users\OWNER\source\repos\ArrayDemo\ArrayDemo\bin\Debug\net5.0\ArrayDemo.dll
+C:\Users\OWNER\source\repos\ArrayDemo\ArrayDemo\bin\Debug\net5.0\ref\ArrayDemo.dll
+C:\Users\OWNER\source\repos\ArrayDemo\ArrayDemo\bin\Debug\net5.0\ArrayDemo.pdb
+C:\Users\OWNER\source\repos\ArrayDemo\ArrayDemo\obj\Debug\net5.0\ArrayDemo.dll
+C:\Users\OWNER\source\repos\ArrayDemo\ArrayDemo\obj\Debug\net5.0\ref\ArrayDemo.dll
+C:\Users\OWNER\source\repos\ArrayDemo\ArrayDemo\obj\Debug\net5.0\ArrayDemo.pdb
+C:\Users\OWNER\source\repos\ArrayDemo\ArrayDemo\obj\Debug\net5.0\ArrayDemo.genruntimeconfig.cache

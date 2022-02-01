@@ -1,0 +1,11 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+
+@model IEnumerable<AspNetCoreWebAppDemo.Controllers.Student>;
+@foreach(var item in @Model)
+            {
+               <p>Name = item.Name</p> 
+            }

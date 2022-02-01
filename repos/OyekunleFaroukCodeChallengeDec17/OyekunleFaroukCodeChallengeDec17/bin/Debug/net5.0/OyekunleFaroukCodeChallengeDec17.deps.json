@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v5.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v5.0": {
+      "OyekunleFaroukCodeChallengeDec17/1.0.0": {
+        "runtime": {
+          "OyekunleFaroukCodeChallengeDec17.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "OyekunleFaroukCodeChallengeDec17/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

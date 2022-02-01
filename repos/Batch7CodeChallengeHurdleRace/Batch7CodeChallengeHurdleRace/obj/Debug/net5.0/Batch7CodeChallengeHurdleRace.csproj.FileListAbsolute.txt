@@ -1,0 +1,16 @@
+C:\Users\OWNER\source\repos\Batch7CodeChallengeHurdleRace\Batch7CodeChallengeHurdleRace\bin\Debug\net5.0\Batch7CodeChallengeHurdleRace.exe
+C:\Users\OWNER\source\repos\Batch7CodeChallengeHurdleRace\Batch7CodeChallengeHurdleRace\bin\Debug\net5.0\Batch7CodeChallengeHurdleRace.deps.json
+C:\Users\OWNER\source\repos\Batch7CodeChallengeHurdleRace\Batch7CodeChallengeHurdleRace\bin\Debug\net5.0\Batch7CodeChallengeHurdleRace.runtimeconfig.json
+C:\Users\OWNER\source\repos\Batch7CodeChallengeHurdleRace\Batch7CodeChallengeHurdleRace\bin\Debug\net5.0\Batch7CodeChallengeHurdleRace.runtimeconfig.dev.json
+C:\Users\OWNER\source\repos\Batch7CodeChallengeHurdleRace\Batch7CodeChallengeHurdleRace\bin\Debug\net5.0\Batch7CodeChallengeHurdleRace.dll
+C:\Users\OWNER\source\repos\Batch7CodeChallengeHurdleRace\Batch7CodeChallengeHurdleRace\bin\Debug\net5.0\ref\Batch7CodeChallengeHurdleRace.dll
+C:\Users\OWNER\source\repos\Batch7CodeChallengeHurdleRace\Batch7CodeChallengeHurdleRace\bin\Debug\net5.0\Batch7CodeChallengeHurdleRace.pdb
+C:\Users\OWNER\source\repos\Batch7CodeChallengeHurdleRace\Batch7CodeChallengeHurdleRace\obj\Debug\net5.0\Batch7CodeChallengeHurdleRace.csproj.AssemblyReference.cache
+C:\Users\OWNER\source\repos\Batch7CodeChallengeHurdleRace\Batch7CodeChallengeHurdleRace\obj\Debug\net5.0\Batch7CodeChallengeHurdleRace.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\OWNER\source\repos\Batch7CodeChallengeHurdleRace\Batch7CodeChallengeHurdleRace\obj\Debug\net5.0\Batch7CodeChallengeHurdleRace.AssemblyInfoInputs.cache
+C:\Users\OWNER\source\repos\Batch7CodeChallengeHurdleRace\Batch7CodeChallengeHurdleRace\obj\Debug\net5.0\Batch7CodeChallengeHurdleRace.AssemblyInfo.cs
+C:\Users\OWNER\source\repos\Batch7CodeChallengeHurdleRace\Batch7CodeChallengeHurdleRace\obj\Debug\net5.0\Batch7CodeChallengeHurdleRace.csproj.CoreCompileInputs.cache
+C:\Users\OWNER\source\repos\Batch7CodeChallengeHurdleRace\Batch7CodeChallengeHurdleRace\obj\Debug\net5.0\Batch7CodeChallengeHurdleRace.dll
+C:\Users\OWNER\source\repos\Batch7CodeChallengeHurdleRace\Batch7CodeChallengeHurdleRace\obj\Debug\net5.0\ref\Batch7CodeChallengeHurdleRace.dll
+C:\Users\OWNER\source\repos\Batch7CodeChallengeHurdleRace\Batch7CodeChallengeHurdleRace\obj\Debug\net5.0\Batch7CodeChallengeHurdleRace.pdb
+C:\Users\OWNER\source\repos\Batch7CodeChallengeHurdleRace\Batch7CodeChallengeHurdleRace\obj\Debug\net5.0\Batch7CodeChallengeHurdleRace.genruntimeconfig.cache

@@ -1,0 +1,53 @@
+﻿@model IEnumerable<LibraryManagementSystem.Models.BookResponseModel>
+
+
+<div class="card-header" style="background-color:aqua;">
+    <div class="card-title">
+        <h1 class="text-center">Books Profile Info.</h1>
+    </div>
+</div>
+
+<table class="table">
+    <thead>
+        <tr>
+           
+            <th>
+                @Html.DisplayNameFor(model => model.Data)
+            </th>
+
+
+            <th>
+                Update
+            </th>
+            <th>
+                Details
+            </th>
+            <th>
+                Delete
+            </th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var book in Model)
+        {
+            <tr>
+               
+                <td>
+                    @Html.DisplayFor(modelItem => book.Data)
+                </td>
+
+
+                <td>
+                    <a asp-action="Update" asp-route-id="@book.Data">Update</a>
+                </td>
+                <td>
+                    <a asp-action="Details" asp-route-id="@book.Data">Details</a>
+                </td>
+                <td>
+                    <a asp-action="Delete" asp-route-id="@book.Data">Delete</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+<button style="background-color:wheat;"><a asp-controller="Book" asp-action="Create">Add Book</a> </button>

@@ -1,0 +1,5 @@
+C:\Users\OWNER\source\repos\OFBusTransportationManagementSystem\OFBusTransportationManagementSystem\obj\Debug\net5.0\OFBusTransportationManagementSystem.csproj.AssemblyReference.cache
+C:\Users\OWNER\source\repos\OFBusTransportationManagementSystem\OFBusTransportationManagementSystem\obj\Debug\net5.0\OFBusTransportationManagementSystem.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\OWNER\source\repos\OFBusTransportationManagementSystem\OFBusTransportationManagementSystem\obj\Debug\net5.0\OFBusTransportationManagementSystem.AssemblyInfoInputs.cache
+C:\Users\OWNER\source\repos\OFBusTransportationManagementSystem\OFBusTransportationManagementSystem\obj\Debug\net5.0\OFBusTransportationManagementSystem.AssemblyInfo.cs
+C:\Users\OWNER\source\repos\OFBusTransportationManagementSystem\OFBusTransportationManagementSystem\obj\Debug\net5.0\OFBusTransportationManagementSystem.csproj.CoreCompileInputs.cache

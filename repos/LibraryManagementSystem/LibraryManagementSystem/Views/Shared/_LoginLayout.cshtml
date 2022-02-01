@@ -1,0 +1,113 @@
+﻿@using Microsoft.Extensions.Configuration;
+@inject IConfiguration configuration;
+@{
+    var appBaseUrl = configuration.GetValue<string>("AppBaseUrl");
+    var apiBaseUrl = configuration.GetValue<string>("ApiBaseUrl");
+}
+<!DOCTYPE html>
+<html>
+<head>
+    <!-- Basic Page Info -->
+    <meta charset="utf-8">
+    <title>DeskApp - Bootstrap Admin Dashboard HTML Template</title>
+
+    <link rel="stylesheet" href="~/assets/toastr/toastr.min.css" />
+    <!-- Site favicon -->
+    <link rel="apple-touch-icon" sizes="180x180" href="~/vendors/images/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="~/vendors/images/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="~/vendors/images/favicon-16x16.png">
+
+    <!-- Mobile Specific Metas -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link href="~/assets/css/pages/login/classic/login-3.css" rel="stylesheet" type="text/css" />
+    <!--end::Page Custom Styles-->
+    <!--begin::Global Theme Styles(used by all pages)-->
+    <!--begin::Global Theme Styles(used by all pages)-->
+    <link href="~/assets/plugins/global/plugins.bundle.css" rel="stylesheet" type="text/css" />
+    <link href="~/assets/plugins/custom/prismjs/prismjs.bundle.css" rel="stylesheet" type="text/css" />
+    <link href="~/assets/css/style.bundle.css" rel="stylesheet" type="text/css" />
+    <!--end::Global Theme Styles-->
+    <!--begin::Layout Themes(used by all pages)-->
+    <link href="~/assets/css/themes/layout/header/base/light.css" rel="stylesheet" type="text/css" />
+    <link href="~/assets/css/themes/layout/header/menu/light.css" rel="stylesheet" type="text/css" />
+    <link href="~/assets/css/themes/layout/brand/dark.css" rel="stylesheet" type="text/css" />
+    <link href="~/assets/css/themes/layout/aside/dark.css" rel="stylesheet" type="text/css" />
+    <!--end::Layout Themes-->
+    <!--begin::IDH-STYLE.css-->
+    <link href="~/assets/idhstyle.css" rel="stylesheet" type="text/css" />
+    <!--end::IDH-STYLE.css-->
+    <link rel="icon" type="image/png" sizes="16x16" href="~/assets/media/logos/idh_lg_blue.png">
+    <!--Toastr Notification CSS-->
+
+    <link rel="stylesheet" href="~/assets/toastr/toastr.min.css" />
+    <!--begin::FONTAWESOME ICONS-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+          crossorigin="anonymous">
+    <!--end::FONTAWESOME ICONS-->
+    <!--begin::Page Vendors Styles(used by this page)-->
+    <link href="~/assets/plugins/custom/fullcalendar/fullcalendar.bundle.css" rel="stylesheet" type="text/css" />
+    <!-- CSS -->
+    <link rel="stylesheet" type="text/css" href="~/vendors/styles/core.css">
+    <link rel="stylesheet" type="text/css" href="~/vendors/styles/icon-font.min.css">
+    <link rel="stylesheet" type="text/css" href="~/vendors/styles/style.css">
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-119386393-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+        gtag('config', 'UA-119386393-1');
+    </script>
+</head>
+<body class="login-page">
+    <div class="container-fluid">
+        <main role="main" class="pb-3">
+            @RenderBody()
+        </main>
+    </div>
+
+    <!-- js -->
+    <script>
+        let appConfig = {
+            appBaseUrl: "@appBaseUrl/account/index",
+            apiBaseUrl: "@apiBaseUrl/api",
+            loginUrl: "@appBaseUrl/account/login",
+            registerUrl: "@appBaseUrl/account/register",
+            apiKey: ""
+        }
+    </script>
+    <!--begin::Global Theme Bundle(used by all pages)-->
+    <script src="~/assets/plugins/global/plugins.bundle.js"></script>
+    <script src="~/assets/plugins/custom/prismjs/prismjs.bundle.js"></script>
+    <script src="~/assets/js/scripts.bundle.js"></script>
+    <!--end::Global Theme Bundle-->
+    <!--begin::Page Scripts(used by this page)-->
+    <script src="~/assets/js/pages/custom/login/login-general.js"></script>
+    <!--end::Page Scripts-->
+    <!--begin::Page Vendors(used by this page)-->
+    <script src="~/assets/plugins/custom/fullcalendar/fullcalendar.bundle.js"></script>
+    <!--end::Page Vendors-->
+    <!--begin::Page Scripts(used by this page)-->
+    <script src="~/assets/js/pages/widgets.js"></script>
+    <!--end::Page Scripts-->
+    <script src="~/vendors/scripts/core.js"></script>
+    <script src="~/vendors/scripts/script.min.js"></script>
+    <script src="~/vendors/scripts/process.js"></script>
+    <script src="~/vendors/scripts/layout-settings.js"></script>
+    <script src="~/assets/toastr/toastr.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.js.map"></script>
+    <script src="~/js/notification.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="~/js/configuration.js"></script>
+    <script src="~/js/authentication.js"></script>
+    <script src="~/js/utility.js"></script>
+    <script>
+        updateUserInfoDisplay();
+    </script>
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>

@@ -1,0 +1,5 @@
+C:\Users\OWNER\source\repos\lifo fifo222\obj\Debug\netcoreapp3.1\lifo fifo222.csproj.AssemblyReference.cache
+C:\Users\OWNER\source\repos\lifo fifo222\obj\Debug\netcoreapp3.1\lifo fifo222.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\OWNER\source\repos\lifo fifo222\obj\Debug\netcoreapp3.1\lifo fifo222.AssemblyInfoInputs.cache
+C:\Users\OWNER\source\repos\lifo fifo222\obj\Debug\netcoreapp3.1\lifo fifo222.AssemblyInfo.cs
+C:\Users\OWNER\source\repos\lifo fifo222\obj\Debug\netcoreapp3.1\lifo fifo222.csproj.CoreCompileInputs.cache

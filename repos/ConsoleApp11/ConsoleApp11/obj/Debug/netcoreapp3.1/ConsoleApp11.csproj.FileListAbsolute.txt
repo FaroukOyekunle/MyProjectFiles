@@ -1,0 +1,15 @@
+An error was encountered while opening associated documents the last time this solution was loaded. Document load is being skipped during this solution load in order to avoid that error.
+C:\Users\OWNER\source\repos\ConsoleApp11\ConsoleApp11\bin\Debug\netcoreapp3.1\ConsoleApp11.exe
+C:\Users\OWNER\source\repos\ConsoleApp11\ConsoleApp11\bin\Debug\netcoreapp3.1\ConsoleApp11.deps.json
+C:\Users\OWNER\source\repos\ConsoleApp11\ConsoleApp11\bin\Debug\netcoreapp3.1\ConsoleApp11.runtimeconfig.json
+C:\Users\OWNER\source\repos\ConsoleApp11\ConsoleApp11\bin\Debug\netcoreapp3.1\ConsoleApp11.runtimeconfig.dev.json
+C:\Users\OWNER\source\repos\ConsoleApp11\ConsoleApp11\bin\Debug\netcoreapp3.1\ConsoleApp11.dll
+C:\Users\OWNER\source\repos\ConsoleApp11\ConsoleApp11\bin\Debug\netcoreapp3.1\ConsoleApp11.pdb
+C:\Users\OWNER\source\repos\ConsoleApp11\ConsoleApp11\obj\Debug\netcoreapp3.1\ConsoleApp11.csproj.AssemblyReference.cache
+C:\Users\OWNER\source\repos\ConsoleApp11\ConsoleApp11\obj\Debug\netcoreapp3.1\ConsoleApp11.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\OWNER\source\repos\ConsoleApp11\ConsoleApp11\obj\Debug\netcoreapp3.1\ConsoleApp11.AssemblyInfoInputs.cache
+C:\Users\OWNER\source\repos\ConsoleApp11\ConsoleApp11\obj\Debug\netcoreapp3.1\ConsoleApp11.AssemblyInfo.cs
+C:\Users\OWNER\source\repos\ConsoleApp11\ConsoleApp11\obj\Debug\netcoreapp3.1\ConsoleApp11.csproj.CoreCompileInputs.cache
+C:\Users\OWNER\source\repos\ConsoleApp11\ConsoleApp11\obj\Debug\netcoreapp3.1\ConsoleApp11.dll
+C:\Users\OWNER\source\repos\ConsoleApp11\ConsoleApp11\obj\Debug\netcoreapp3.1\ConsoleApp11.pdb
+C:\Users\OWNER\source\repos\ConsoleApp11\ConsoleApp11\obj\Debug\netcoreapp3.1\ConsoleApp11.genruntimeconfig.cache

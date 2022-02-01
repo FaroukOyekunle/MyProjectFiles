@@ -1,0 +1,80 @@
+﻿@model IEnumerable<LibraryManagementSystem.Dtos.UserDto>
+
+
+
+
+<div class="card-header" style="background-color:aqua;">
+    <div class="card-title">
+        <h1 class="text-center">Users Profile DashBoard</h1>
+    </div>
+</div>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Id)
+            </th>
+
+            <th>
+                @Html.DisplayNameFor(model => model.FirstName)
+            </th>
+
+            <th>
+                @Html.DisplayNameFor(model => model.LastName)
+            </th>
+            
+            <th>
+                @Html.DisplayNameFor(model => model.Email)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.PhoneNumber)
+            </th>
+            
+
+
+            <th>
+                Update
+            </th>
+            <th>
+                Details
+            </th>
+            <th>
+                Delete
+            </th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var user in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => user.Id)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => user.FirstName)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => user.LastName)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => user.Email)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => user.PhoneNumber)
+                </td>
+
+                <td>
+                    <a asp-action="Update" asp-route-id="@user.Id">Update</a>
+                </td>
+                <td>
+                    <a asp-action="Details" asp-route-id="@user.Id">Details</a>
+                </td>
+                <td>
+                    <a asp-action="Delete" asp-route-id="@user.Id">Delete</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+<button style="background-color:wheat;"><a asp-controller="User" asp-action="Create">Add User</a> </button>
