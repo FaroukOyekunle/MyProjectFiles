@@ -1,0 +1,93 @@
+﻿@model IEnumerable<WebAppDemo.Properties.Dtos.CaseDto>
+
+
+<div class="card-header" style="background-color:aquamarine;">
+    <div class="card-title">
+        <h2 class="text-center">Cases Profile List...</h2>
+    </div>
+</div>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Id)
+            </th>
+
+            <th>
+                @Html.DisplayNameFor(model => model.CaseName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.CaseType)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.CaseStatus)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.CaseNumber)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.CaseDateCreated)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.CaseDateModified)
+            </th>
+
+
+
+
+
+
+            <th>
+                Update
+            </th>
+            <th>
+                Details
+            </th>
+            <th>
+                Delete
+            </th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var caase in Model)
+        {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => caase.Id)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => caase.CaseName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => caase.CaseStatus)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => caase.CaseNumber)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => caase.CaseType)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => caase.CaseDateCreated)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => caase.CaseDateModified)
+            </td>
+
+
+            <td>
+                <a asp-action="Update" asp-route-id="@caase.Id">Update</a>
+            </td>
+            <td>
+                <a asp-action="Details" asp-route-id="@caase.Id">Details</a>
+            </td>
+            <td>
+                <a asp-action="Delete" asp-route-id="@caase.Id">Delete</a>
+            </td>
+        </tr>
+        }
+    </tbody>
+</table>
+<button style="background-color:palevioletred;"><a asp-controller="Case" asp-action="Create">Register Case</a> </button>
+

@@ -1,0 +1,69 @@
+﻿@using Microsoft.AspNetCore.Http;
+<dl class="row">
+    <dt class="col-sm-2">
+        FirstName:
+    </dt>
+    <dd class="col-sm-10">
+        @Context.Session.GetString("firstName")
+    </dd>
+    <dt class="col-sm-2">
+        LastName:
+    </dt>
+    <dd class="col-sm-10">
+        @Context.Session.GetString("lastName")
+    </dd>
+    <dt class="col-sm-2">
+        LastName:
+    </dt>
+    <dd class="col-sm-10">
+        @Context.Session.GetString("otherName")
+    </dd>
+    <dt class="col-sm-2">
+        Email:
+    </dt>
+    <dd class="col-sm-10">
+        @Context.Session.GetString("email")
+    </dd>
+    <dt class="col-sm-2">
+        Gender:
+    </dt>
+    <dd class="col-sm-10">
+        @Context.Session.GetString("gender")
+    </dd>
+    <dt class="col-sm-2">
+        Address:
+    </dt>
+    <dd class="col-sm-10">
+        @Context.Session.GetString("address")
+    </dd>
+    <dt class="col-sm-2">
+        PhoneNumber:
+    </dt>
+    <dd class="col-sm-10">
+        @Context.Session.GetString("phoneNumber")
+    </dd>
+    <dt class="col-sm-2">
+        DateOfBirth:
+    </dt>
+    <dd class="col-sm-10">
+        @Context.Session.GetString("dateOfBirth")
+    </dd>
+    
+    <dt class="col-sm-2">
+        ChiefJudge Cases:
+    </dt>
+    @for (int i = 1; i <= int.Parse(Context.Session.GetString("numberOfCases")); i++)
+    {
+        <dd class="col-sm-10">
+            @Context.Session.GetString($"case{i}")
+        </dd>
+    }
+    <dt class="col-sm-2">
+        ChiefJudge Photo:
+    </dt>
+    <dd class="col-sm-10">
+        <img class="card-img" style="height:200px; width:200px" src="~/ChiefJudgePhoto/" />
+        <a href="~/ChiefJudgePhoto/" download="@Context.Session.GetString("photo")"><input class="btn btn-outline-primary" type="button" value="Download Photo" /></a>
+    </dd>
+
+</dl>

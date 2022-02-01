@@ -1,0 +1,102 @@
+@model IEnumerable<WebAppDemo.Properties.Dtos.MailClientDto>
+
+
+
+
+<div class="card-header" style="background-color:aqua;">
+    <div class="card-title">
+        <h1 class="text-center"> MailClients Profile Info..</h1>
+    </div>
+</div>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Id)
+            </th>
+
+            <th>
+                @Html.DisplayNameFor(model => model.MailClientFirstName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.MailClientLastName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.MailClientOtherName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Email)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Address)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Gender)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.PhoneNumber)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.MailClientTag)
+            </th>
+
+
+            <th>
+                Update
+            </th>
+            <th>
+                Details
+            </th>
+            <th>
+                Delete
+            </th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var mailClient in Model)
+        {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => mailClient.Id)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => mailClient.MailClientFirstName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => mailClient.MailClientLastName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => mailClient.MailClientOtherName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => mailClient.Email)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => mailClient.Gender)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => mailClient.Address)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => mailClient.PhoneNumber)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => mailClient.MailClientTag)
+            </td>
+
+            <td>
+                <a asp-action="Update" asp-route-id="@mailClient.Id">Update</a>
+            </td>
+            <td>
+                <a asp-action="Details" asp-route-id="@mailClient.Id">Details</a>
+            </td>
+            <td>
+                <a asp-action="Delete" asp-route-id="@mailClient.Id">Delete</a>
+            </td>
+        </tr>
+        }
+    </tbody>
+</table>
+<button style="background-color:cornsilk;"><a asp-controller="MailClient" asp-action="Create">Register MailClient</a> </button>
+

@@ -1,0 +1,65 @@
+@model WebAppDemo.Properties.Dtos.ChiefJudgeDto
+
+
+<h3>Are you sure you want to delete this Solictor's Profile Account...?</h3>
+<div style="font-size: 130%;">
+    <hr />
+    <dl class="row">
+        <dt class="col-sm-2">
+            Name:
+        </dt>
+        <dd class="col-sm-10">
+            @Model.FirstName
+        </dd>
+        <dt class="col-sm-2">
+            LastName:
+        </dt>
+        <dd class="col-sm-10">
+            @Model.LastName
+        </dd>
+        <dt class="col-sm-2">
+            OtherName:
+        </dt>
+        <dd class="col-sm-10">
+            @Model.OtherName
+        </dd>
+        <dt class="col-sm-2">
+            Email:
+        </dt>
+        <dd class="col-sm-10">
+            @Model.Email
+        </dd>
+        <dt class="col-sm-2">
+            PhoneNumber:
+        </dt>
+        <dd class="col-sm-10">
+            @Model.PhoneNumber
+        </dd>
+        <dt class="col-sm-2">
+            Address:
+        </dt>
+        <dd class="col-sm-10">
+            @Model.Address
+        </dd>
+        <dt class="col-sm-2">
+            DateOfBirth:
+        </dt>
+        <dd class="col-sm-10">
+            @Model.DateOfBirth
+        </dd>
+        <dt class="col-sm-2">
+            Gender:
+        </dt>
+        <dd class="col-sm-10">
+            @Model.Gender
+        </dd>
+
+
+
+    </dl>
+
+    <form asp-action="Delete">
+        <input type="submit" value="Delete" class="btn btn-danger" /> |
+        <a asp-action="Index">Back to List</a>
+    </form>
+</div>

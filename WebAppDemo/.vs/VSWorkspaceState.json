@@ -1,0 +1,16 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\Context",
+    "\\Controllers",
+    "\\Entities",
+    "\\Implementations",
+    "\\Implementations\\Repositories",
+    "\\Implementations\\Services",
+    "\\Interfaces",
+    "\\Interfaces\\Repositories",
+    "\\Repositories"
+  ],
+  "SelectedNode": "\\Implementations\\Services\\MailClientService.cs",
+  "PreviewInSolutionExplorer": false
+}

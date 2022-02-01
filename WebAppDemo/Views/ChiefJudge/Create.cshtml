@@ -1,0 +1,102 @@
+@model WebAppDemo.Properties.Dtos.CreateChiefJudgeRequestModel
+
+<div class="container">
+    <div class="row justify-content-center">
+        <div class=" card col-md-6">
+            <div class="card-body ">
+                <div class="bg-light">
+                    <h1 class="tagcolor" style="color:aqua">Create Judge Profile info..</h1>
+                    <p class="tagcolor" style="color:burlywood">Amp up the flair. ....</p>
+                    <hr class="tagcolor" style="color:azure">
+
+                </div>
+                <form asp-action="Create" enctype="multipart/form-data">
+                    <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                    <div class="form-row">
+                        <div class="form-group col-sm-6">
+                            <label asp-for="FirstName" class="control-label"></label>
+                            <input asp-for="FirstName" class="form-control" />
+                            <span asp-validation-for="FirstName" class="text-danger"></span>
+                        </div>
+                        <div class="form-group col-sm-6">
+                            <label asp-for="LastName" class="control-label"></label>
+                            <input asp-for="LastName" class="form-control" />
+                            <span asp-validation-for="LastName" class="text-danger"></span>
+                        </div>
+                        <div class="form-group col-sm-6">
+                            <label asp-for="OtherName" class="control-label"></label>
+                            <input asp-for="OtherName" class="form-control" />
+                            <span asp-validation-for="OtherName" class="text-danger"></span>
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <div class="form-group col-sm-6">
+                            <label asp-for="Email" class="control-label"></label>
+                            <input asp-for="Email" class="form-control" />
+                            <span asp-validation-for="Email" class="text-danger"></span>
+                        </div>
+                        <div class="form-group col-sm-6">
+                            <label asp-for="PhoneNumber" class="control-label"></label>
+                            <input asp-for="PhoneNumber" class="form-control" />
+                            <span asp-validation-for="PhoneNumber" class="text-danger"></span>
+                        </div>
+                        <div class="form-group col-sm-6">
+                            <label asp-for="Address" class="control-label"></label>
+                            <input asp-for="Address" class="form-control" />
+                            <span asp-validation-for="Address" class="text-danger"></span>
+                        </div>
+                        <div class="form-group col-sm-6">
+                            <label asp-for="DateOfBirth" class="control-label"></label>
+                            <input asp-for="DateOfBirth" class="form-control" />
+                            <span asp-validation-for="DateOfBirth" class="text-danger"></span>
+                        </div>
+                        <div class="form-group col-sm-6">
+                            <label asp-for="Gender" class="control-label"></label>
+                            <input asp-for="Gender" class="form-control" />
+                            <span asp-validation-for="Gender" class="text-danger"></span>
+                        </div>
+
+                    </div>
+                    <div class="form-row">
+                        <div class="col-md-6" style="margin-top: 20px; font-size: larger; font-weight: bold; color: darkcyan">
+                            <label class="control-label">MailClient</label>
+                            <select asp-for="MailClientId" class="form-control" asp-items="ViewBag.MailClients" >
+                                <option value="">--Select MailClient--</option>
+                            </select>
+                        </div>
+
+                        <div class="col-md-6" style="margin-top: 15px; font-size: larger; font-weight: bold; color:azure">
+                            <label class="control-label">Cases</label>
+                            <select asp-for="Cases" class="form-control" asp-items="ViewBag.Cases" multiple required>
+                                <option value="">--Select Cases--</option>
+                            </select>
+                        </div>
+
+                    </div>
+                    <div>
+                        <div class="form-group">
+                            <label class="control-label">Select ChiefJudge Photo</label>
+                            <input name="chiefJudgePhoto" type="file" class="form-control" />
+                        </div>
+                        <div class="form-group col-sm-6">
+                            <label asp-for="Password" class="control-label"></label>
+                            <input asp-for="Password" class="form-control" />
+                            <span asp-validation-for="Password" class="text-danger"></span>
+                        </div>
+                    </div>
+                    <div class="form-group ">
+                        <input href="#myModal" type="submit" value="Submit" class="btn btn-success trigger-btn col-sm-12" data-toggle="modal" />
+                    </div>
+                </form>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+
+
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

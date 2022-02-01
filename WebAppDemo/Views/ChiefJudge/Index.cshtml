@@ -1,0 +1,103 @@
+@model IEnumerable<WebAppDemo.Properties.Dtos.ChiefJudgeDto>
+
+
+
+
+<div class="card-header" style="background-color:aqua
+    ;">
+    <div class="card-title">
+        <h1 class="text-center">ChiefJudges Profile Info..</h1>
+    </div>
+</div>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Id)
+            </th>
+
+            <th>
+                @Html.DisplayNameFor(model => model.FirstName)
+            </th>
+
+            <th>
+                @Html.DisplayNameFor(model => model.LastName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.OtherName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Email)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Gender)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Address)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DateOfBirth)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.PhoneNumber)
+            </th>
+
+
+
+            <th>
+                Update
+            </th>
+            <th>
+                Details
+            </th>
+            <th>
+                Delete
+            </th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var chiefJudge in Model)
+        {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => chiefJudge.Id)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => chiefJudge.FirstName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => chiefJudge.LastName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => chiefJudge.OtherName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => chiefJudge.Email)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => chiefJudge.PhoneNumber)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => chiefJudge.Address)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => chiefJudge.Gender)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => chiefJudge.DateOfBirth)
+            </td>
+            <td>
+                <a asp-action="Update" asp-route-id="@chiefJudge.Id">Update</a>
+            </td>
+            <td>
+                <a asp-action="Details" asp-route-id="@chiefJudge.Id">Details</a>
+            </td>
+            <td>
+                <a asp-action="Delete" asp-route-id="@chiefJudge.Id">Delete</a>
+            </td>
+        </tr>
+        }
+    </tbody>
+</table>
+<button style="background-color:bisque;"><a asp-controller="ChiefJudge" asp-action="Create">Register ChiefJudge</a> </button>

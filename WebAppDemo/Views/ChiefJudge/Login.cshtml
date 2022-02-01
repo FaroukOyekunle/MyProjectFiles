@@ -1,0 +1,22 @@
+﻿@model WebAppDemo.Properties.Dtos.LoginRequestModel
+
+<div>
+    <h3>Login page</h3>
+    @ViewBag.error
+    <form asp-action="Login">
+        <div class="form-row">
+            <div class="form-group col-sm-6">
+                <label class="control-label">Email</label>
+                <input type="text" name="Email" class="form-control" />
+            </div>
+            <div class="form-group col-sm-6">
+                <label class="control-label">Password</label>
+                <input type="password" name="password" class="form-control" />
+            </div>
+        </div>
+        <div class="form-group ">
+            <input href="#myModal" type="submit" value="Submit" class="btn btn-success trigger-btn col-sm-12" data-toggle="modal" />
+        </div>
+    </form>
+</div>
+

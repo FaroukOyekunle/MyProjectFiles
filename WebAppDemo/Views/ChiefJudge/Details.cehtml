@@ -1,0 +1,63 @@
+@model WebAppDemo.Properties.Dtos.ChiefJudgeDto
+
+
+<dl class="row">
+    <dt class="col-sm-2">
+        FirstName:
+    </dt>
+    <dd class="col-sm-10">
+        @Model.FirstName
+    </dd>
+    <dt class="col-sm-2">
+        LastName:
+    </dt>
+    <dd class="col-sm-10">
+        @Model.LastName
+    </dd>
+     <dt class="col-sm-2">
+        OtherName:
+    </dt>
+    <dd class="col-sm-10">
+        @Model.OtherName
+    </dd>
+    <dt class="col-sm-2">
+        Email:
+    </dt>
+    <dd class="col-sm-10">
+        @Model.Email
+    </dd>
+    <dt class="col-sm-2">
+        Phone:
+    </dt>
+    <dd class="col-sm-10">
+        @Model.PhoneNumber
+    </dd>
+    <dt class="col-sm-2">
+        Gender:
+    </dt>
+    <dd class="col-sm-10">
+        @Model.Gender
+    </dd>
+     <dt class="col-sm-2">
+        Address:
+    </dt>
+    <dd class="col-sm-10">
+        @Model.Address
+    </dd>
+      <dt class="col-sm-2">
+        DateOfBirth:
+    </dt>
+    <dd class="col-sm-10">
+        @Model.DateOfBirth
+    </dd>
+    <dt class="col-sm-2">
+        ChiefJudge Photo:
+    </dt>
+    <dd class="col-sm-10">
+        <img class="card-img" style="height:200px; width:200px" src="~/ChiefJudgePhotos/@Model.ChiefJudgePhoto" />
+        <a href="~/ChiefJudgePhotos/@Model.ChiefJudgePhoto" download="@Model.ChiefJudgePhoto"><input class="btn btn-outline-primary" type="button" value="Download Photo" /></a>
+    </dd>
+
+</dl>
+
+<button style="background-color:aqua;"><a asp-action="Index">Back to List</a></button>

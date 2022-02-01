@@ -1,0 +1,71 @@
+﻿@model WebAppDemo.Properties.Dtos.CreateCaseRequestModel
+
+
+<div class="container">
+    <div class="row justify-content-center">
+        <div class=" card col-md-6">
+            <div class="card-body ">
+                <div class="bg-light">
+                    <h1 class="tagcolor" style="color:floralwhite">Case Profile...</h1>
+                    <p class="tagcolor" style="color:azure"> Fill in this form to Update your Case Profile info....</p>
+                    <hr class="tagcolor" style="color:darkcyan">
+
+                </div>
+                <form asp-action="Update">
+                    <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+
+                    <div class="form-row">
+
+                        <div class="form-group col-sm-6">
+                            <label asp-for="CaseName" class="control-label"></label>
+                            <input asp-for="CaseName" class="form-control" />
+                            <span asp-validation-for="CaseName" class="text-danger"></span>
+                        </div>
+                        <div class="form-group col-sm-6">
+                            <label asp-for="CaseStatus" class="control-label"></label>
+                            <input asp-for="CaseStatus" class="form-control" />
+                            <span asp-validation-for="CaseStatus" class="text-danger"></span>
+                        </div>
+                        <div class="form-group col-sm-6">
+                            <label asp-for="CaseNumber" class="control-label"></label>
+                            <input asp-for="CaseNumber" class="form-control" />
+                            <span asp-validation-for="CaseNumber" class="text-danger"></span>
+                        </div>
+                        <div class="form-group col-sm-6">
+                            <label asp-for="CaseType" class="control-label"></label>
+                            <input asp-for="CaseType" class="form-control" />
+                            <span asp-validation-for="CaseType" class="text-danger"></span>
+                        </div>
+                        <div class="form-group col-sm-6">
+                            <label asp-for="CaseDateCreated" class="control-label"></label>
+                            <input asp-for="CaseDateCreated" class="form-control" />
+                            <span asp-validation-for="CaseDateCreated" class="text-danger"></span>
+                        </div>
+                        <div class="form-group col-sm-6">
+                            <label asp-for="CaseDateModified" class="control-label"></label>
+                            <input asp-for="CaseDateModified" class="form-control" />
+                            <span asp-validation-for="CaseDateModified" class="text-danger"></span>
+                        </div>
+
+
+                    </div>
+
+
+                    <div class="form-group ">
+                        <input href="#myModal" type="submit" value="Submit" class="btn btn-success trigger-btn col-sm-12" data-toggle="modal" />
+                    </div>
+
+                </form>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+
+
+
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

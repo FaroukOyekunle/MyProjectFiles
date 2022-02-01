@@ -1,0 +1,51 @@
+@model WebAppDemo.Properties.Dtos.MailClientDto
+
+
+
+<dl class="row">
+    <dt class="col-sm-2">
+        FirstName:
+    </dt>
+    <dd class="col-sm-10">
+        @Model.MailClientFirstName
+    </dd>
+    <dt class="col-sm-2">
+        LastName:
+    </dt>
+    <dd class="col-sm-10">
+        @Model.MailClientLastName
+    </dd>
+    <dt class="col-sm-2">
+        OtherName:
+    </dt>
+    <dd class="col-sm-10">
+        @Model.MailClientOtherName
+    </dd>
+    <dt class="col-sm-2">
+        Email:
+    </dt>
+    <dd class="col-sm-10">
+        @Model.Email
+    </dd>
+    <dt class="col-sm-2">
+        Gender:
+    </dt>
+    <dd class="col-sm-10">
+        @Model.Gender
+    </dd>
+    <dt class="col-sm-2">
+        Address:
+    </dt>
+    <dd class="col-sm-10">
+        @Model.Address
+    </dd>
+    <dt class="col-sm-2">
+        PhoneNumber:
+    </dt>
+    <dd class="col-sm-10">
+        @Model.PhoneNumber
+    </dd>
+
+</dl>
+
+<button style="background-color:aquamarine;"><a asp-action="Index">Back to List</a></button>
