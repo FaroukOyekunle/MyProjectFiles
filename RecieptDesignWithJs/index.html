@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mobile Reciept</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+
+</head>
+
+<body>
+
+
+    <div class="container">
+
+
+        <div id="top-section" class="page-section">
+            <div class="summary-container bordered shadowed">
+
+                <div class="circles-container">
+                    <div id="biggest-circle" class="center-hv">
+                        <div id="bigger-circle" class="center-hv">
+                            <div id="big-circle">
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="total-container">
+                    <h6>Total Price</h6>
+                    <h1 id="total-price">$349,706</h1>
+                </div>
+
+            </div>
+
+            <div class="count-container shadowed">
+                <span>Total Items: </span>
+                <span id="item-count">30 items</span>
+            </div>
+
+        </div>
+
+        <div id="content-section" class="page-section">
+
+
+        </div>
+        <div id="footer-section" class="page-section">
+            <button id="btn-add-form" class="shadowed bordered center-hv">
+                <span>Add item</span>
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon" viewBox="0 0 20 20" fill="currentColor">
+                    <path fill-rule="evenodd"
+                        d="M10 3a1 1 0 011 1v5h5a1 1 0 110 2h-5v5a1 1 0 11-2 0v-5H4a1 1 0 110-2h5V4a1 1 0 011-1z"
+                        clip-rule="evenodd" />
+                </svg>
+            </button>
+        </div>
+
+        <div id="form-container" class="form-container ">
+            <div class="form-navigation">
+                <button id="form-back-btn">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon" id="back-icon" viewBox="0 0 20 20" fill="currentColor">
+                        <path fill-rule="evenodd"
+                            d="M9.707 16.707a1 1 0 01-1.414 0l-6-6a1 1 0 010-1.414l6-6a1 1 0 011.414 1.414L5.414 9H17a1 1 0 110 2H5.414l4.293 4.293a1 1 0 010 1.414z"
+                            clip-rule="evenodd" />
+                    </svg>
+                </button>
+            </div>
+            <form autocomplete="off" action="#" id="form-additem">
+
+                <div class="input-container">
+                    <label for="input-item-name">Name</label>
+                    <input type="text" id="input-item-name">
+                </div>
+                <div class="input-container">
+                    <label for="input-item-unit-price">Unit Price</label>
+                    <input type="number" id="input-item-unit-price">
+                </div>
+                <div class="input-container">
+                    <label for="input-item-quantity">Quantity</label>
+                    <input type="number" id="input-item-quantity">
+                </div>
+
+                <div>
+                    <button id="submit-btn" class="shadowed">Submit</button>
+                </div>
+            </form>
+        </div>
+
+    </div>
+
+    <script src="script.js" defer></script>
+    <script src="itemscript.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,13 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\Entities",
+    "\\Implementations",
+    "\\Implementations\\Repositories",
+    "\\Implementations\\Services",
+    "\\Interfaces",
+    "\\Interfaces\\IRepositories"
+  ],
+  "SelectedNode": "\\LibraryManagementSystem.csproj.user",
+  "PreviewInSolutionExplorer": false
+}

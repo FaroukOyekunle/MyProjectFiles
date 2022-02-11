@@ -16,5 +16,6 @@ namespace LibraryManagementSystem.Interfaces.IServices
         public Task<BaseResponse> UpgradeUser(int id, UpgradeLibraryUserRequestModel model);
         public Task<BaseResponse> AddUser(CreateUserRequestModel model);
         public Task<BaseResponse> DeleteUser(int id);
+
     }
 }

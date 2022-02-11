@@ -1830,11 +1830,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\OWNER\\source\\repos\\LibraryManagementSystem\\LibraryManagementSystem\\LibraryManagementSystem.csproj",
+      "projectUniqueName": "C:\\Users\\OWNER\\OneDrive\\Desktop\\Umar Farouk  Projects\\MyProjectFiles\\repos\\LibraryManagementSystem\\LibraryManagementSystem\\LibraryManagementSystem.csproj",
       "projectName": "LibraryManagementSystem",
-      "projectPath": "C:\\Users\\OWNER\\source\\repos\\LibraryManagementSystem\\LibraryManagementSystem\\LibraryManagementSystem.csproj",
+      "projectPath": "C:\\Users\\OWNER\\OneDrive\\Desktop\\Umar Farouk  Projects\\MyProjectFiles\\repos\\LibraryManagementSystem\\LibraryManagementSystem\\LibraryManagementSystem.csproj",
       "packagesPath": "C:\\Users\\OWNER\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\OWNER\\source\\repos\\LibraryManagementSystem\\LibraryManagementSystem\\obj\\",
+      "outputPath": "C:\\Users\\OWNER\\OneDrive\\Desktop\\Umar Farouk  Projects\\MyProjectFiles\\repos\\LibraryManagementSystem\\LibraryManagementSystem\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\OWNER\\AppData\\Roaming\\NuGet\\NuGet.Config",

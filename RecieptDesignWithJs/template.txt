@@ -1,0 +1,13 @@
+<div class="items-container shadowed bordered">
+    <div class="intials-container center-hv">$$INITIALS</div>
+    <div class="item-details-container">
+        <div>
+            <span class="item-name">$$ITEM</span>
+            <span class="item-total-price">$$TOTALPRICE</span>
+        </div>
+        <div>
+            <span class="item-quantity">$$QUANTITY</span>
+            <span class="item-unit-price">$$UNITPRICE</span>
+        </div>
+    </div>
+</div>

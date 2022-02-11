@@ -329,14 +329,14 @@ namespace LibraryManagementSystem.Implementations.Services
         public async Task<BooksResponseModel> GetBooksByAuthor(int authorId)
         {
             var books = await _bookRepository.GetBooksByAuthor(authorId);
-
+/*
             if (books.Count == 0)
             {
                 throw new NotFoundException($"Book with author id {authorId} not found");
-            }
+            }*/
             return new BooksResponseModel
             {
-                Data = books,
+               /* Data = books,*/
                 Status = true,
                 Message = "Books retrieved successfully"
 

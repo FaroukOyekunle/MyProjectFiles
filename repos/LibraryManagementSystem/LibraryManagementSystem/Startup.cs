@@ -43,9 +43,9 @@ namespace LibraryManagementSystem
             services.AddScoped<IRoleService, RoleService>();
             services.AddScoped<ICategoryService, CategoryService>();
             services.AddScoped<IAuthorService, AuthorService>();
-           // services.AddScoped<IBookLendingService, BooKLendingService>();
+            // services.AddScoped<IBookLendingService, BooKLendingService>();
 
-
+            services.AddIdentity();
             services.AddSession();
             services.AddAuthentication();
             services.AddAuthorization();

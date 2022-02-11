@@ -3,6 +3,7 @@ using LibraryManagementSystem.Dtos;
 using LibraryManagementSystem.Entities;
 using LibraryManagementSystem.Enums;
 using LibraryManagementSystem.Interfaces.IRepositories;
+using LibraryManagementSystem.Models;
 using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
@@ -285,13 +286,13 @@ namespace LibraryManagementSystem.Implementations.Repositories
                      AvailabilityStatus = b.Book.AvailabilityStatus,
                      Publisher = b.Book.Publisher,
                      PublicationDate = b.Book.PublicationDate,
-                     /* Authors = b.Book.BookAuthors.Select(a => new AuthorDTO()
+                     /* Authors = b.Book.BookAuthors.Select(a => new AuthorDto()
                       {
                           FirstName = a.Author.FirstName,
                           LastName = a.Author.LastName,
                           Biography = a.Author.Biography
                       }).ToList(),
-                      BookCategories = b.BookCategories.Select(a => new CategoryDTO()
+                      BookCategories = b.BookCategories.Select(a => new CategoryDto()
                       {
                           Id = a.CategoryId,
                           Name = a.Category.Name,
@@ -312,6 +313,11 @@ namespace LibraryManagementSystem.Implementations.Repositories
             _context.BookLendings.Update(bookLending);
             _context.SaveChanges();
             return bookLending;
+        }
+
+        Task<BooksResponseModel> IBookRepository.GetBooksByAuthor(int authorId)
+        {
+            throw new NotImplementedException();
         }
     }
 }

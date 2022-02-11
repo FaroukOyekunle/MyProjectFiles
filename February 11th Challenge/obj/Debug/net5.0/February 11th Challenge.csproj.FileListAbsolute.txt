@@ -1,0 +1,16 @@
+C:\Users\OWNER\OneDrive\Desktop\Umar Farouk  Projects\MyProjectFiles\February 11th Challenge\bin\Debug\net5.0\February 11th Challenge.exe
+C:\Users\OWNER\OneDrive\Desktop\Umar Farouk  Projects\MyProjectFiles\February 11th Challenge\bin\Debug\net5.0\February 11th Challenge.deps.json
+C:\Users\OWNER\OneDrive\Desktop\Umar Farouk  Projects\MyProjectFiles\February 11th Challenge\bin\Debug\net5.0\February 11th Challenge.runtimeconfig.json
+C:\Users\OWNER\OneDrive\Desktop\Umar Farouk  Projects\MyProjectFiles\February 11th Challenge\bin\Debug\net5.0\February 11th Challenge.runtimeconfig.dev.json
+C:\Users\OWNER\OneDrive\Desktop\Umar Farouk  Projects\MyProjectFiles\February 11th Challenge\bin\Debug\net5.0\February 11th Challenge.dll
+C:\Users\OWNER\OneDrive\Desktop\Umar Farouk  Projects\MyProjectFiles\February 11th Challenge\bin\Debug\net5.0\ref\February 11th Challenge.dll
+C:\Users\OWNER\OneDrive\Desktop\Umar Farouk  Projects\MyProjectFiles\February 11th Challenge\bin\Debug\net5.0\February 11th Challenge.pdb
+C:\Users\OWNER\OneDrive\Desktop\Umar Farouk  Projects\MyProjectFiles\February 11th Challenge\obj\Debug\net5.0\February 11th Challenge.csproj.AssemblyReference.cache
+C:\Users\OWNER\OneDrive\Desktop\Umar Farouk  Projects\MyProjectFiles\February 11th Challenge\obj\Debug\net5.0\February 11th Challenge.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\OWNER\OneDrive\Desktop\Umar Farouk  Projects\MyProjectFiles\February 11th Challenge\obj\Debug\net5.0\February 11th Challenge.AssemblyInfoInputs.cache
+C:\Users\OWNER\OneDrive\Desktop\Umar Farouk  Projects\MyProjectFiles\February 11th Challenge\obj\Debug\net5.0\February 11th Challenge.AssemblyInfo.cs
+C:\Users\OWNER\OneDrive\Desktop\Umar Farouk  Projects\MyProjectFiles\February 11th Challenge\obj\Debug\net5.0\February 11th Challenge.csproj.CoreCompileInputs.cache
+C:\Users\OWNER\OneDrive\Desktop\Umar Farouk  Projects\MyProjectFiles\February 11th Challenge\obj\Debug\net5.0\February 11th Challenge.dll
+C:\Users\OWNER\OneDrive\Desktop\Umar Farouk  Projects\MyProjectFiles\February 11th Challenge\obj\Debug\net5.0\ref\February 11th Challenge.dll
+C:\Users\OWNER\OneDrive\Desktop\Umar Farouk  Projects\MyProjectFiles\February 11th Challenge\obj\Debug\net5.0\February 11th Challenge.pdb
+C:\Users\OWNER\OneDrive\Desktop\Umar Farouk  Projects\MyProjectFiles\February 11th Challenge\obj\Debug\net5.0\February 11th Challenge.genruntimeconfig.cache
